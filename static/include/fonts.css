@@ -1,0 +1,1637 @@
+
+
+@font-face {
+  font-family: "Almarai";
+  src: url("../../fonts/arabic/almarai/almarai_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Amiri";
+  src: url("../../fonts/arabic/amiri/amiri_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Amiriquran";
+  src: url("../../fonts/arabic/amiriquran/amiriquran_0.ttf") format("truetype");
+  font-weight: 400;
+}
+
+
+@font-face {
+  font-family: "Baloobhaijaan2";
+  src: url("../../fonts/arabic/baloobhaijaan2/baloobhaijaan2_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Cairo";
+  src: url("../../fonts/arabic/cairo/cairo_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Changa";
+  src: url("../../fonts/arabic/changa/changa_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Elmessiri";
+  src: url("../../fonts/arabic/elmessiri/elmessiri_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Gulzar";
+  src: url("../../fonts/arabic/gulzar/gulzar_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Jomhuria";
+  src: url("../../fonts/arabic/jomhuria/jomhuria_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Katibeh";
+  src: url("../../fonts/arabic/katibeh/katibeh_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Kufam";
+  src: url("../../fonts/arabic/kufam/kufam_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Lalezar";
+  src: url("../../fonts/arabic/lalezar/lalezar_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Lateef";
+  src: url("../../fonts/arabic/lateef/lateef_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Lemonada";
+  src: url("../../fonts/arabic/lemonada/lemonada_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Mada";
+  src: url("../../fonts/arabic/mada/mada_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Marhey";
+  src: url("../../fonts/arabic/marhey/marhey_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Markazitext";
+  src: url("../../fonts/arabic/markazitext/markazitext_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Notokufiarabic";
+  src: url("../../fonts/arabic/notokufiarabic/notokufiarabic_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Notonaskharabic";
+  src: url("../../fonts/arabic/notonaskharabic/notonaskharabic_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Notonastaliqurdu";
+  src: url("../../fonts/arabic/notonastaliqurdu/notonastaliqurdu_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Notosansarabic";
+  src: url("../../fonts/arabic/notosansarabic/notosansarabic_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Oi";
+  src: url("../../fonts/arabic/oi/oi_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Qahiri";
+  src: url("../../fonts/arabic/qahiri/qahiri_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Rakkas";
+  src: url("../../fonts/arabic/rakkas/rakkas_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Readexpro";
+  src: url("../../fonts/arabic/readexpro/readexpro_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Reemkufi";
+  src: url("../../fonts/arabic/reemkufi/reemkufi_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../../fonts/arabic/rubik/rubik_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Ruwudu";
+  src: url("../../fonts/arabic/ruwudu/ruwudu_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Scheherazade";
+  src: url("../../fonts/arabic/scheherazade/scheherazade_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Tajawal";
+  src: url("../../fonts/arabic/tajawal/tajawal_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Thabit";
+  src: url("../../fonts/arabic/thabit/thabit_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("../../fonts/arabic/vazirmatn/vazirmatn_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Zain";
+  src: url("../../fonts/arabic/zain/zain_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Abel";
+  src: url("../../fonts/latin/abel/abel_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Actor";
+  src: url("../../fonts/latin/actor/actor_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Alegreya";
+  src: url("../../fonts/latin/alegreya/alegreya_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Alegreyasans";
+  src: url("../../fonts/latin/alegreyasans/alegreyasans_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Anton";
+  src: url("../../fonts/latin/anton/anton_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Archivo";
+  src: url("../../fonts/latin/archivo/archivo_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Archivonarrow";
+  src: url("../../fonts/latin/archivonarrow/archivonarrow_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Arimo";
+  src: url("../../fonts/latin/arimo/arimo_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Arvo";
+  src: url("../../fonts/latin/arvo/arvo_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Asap";
+  src: url("../../fonts/latin/asap/asap_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Assistant";
+  src: url("../../fonts/latin/assistant/assistant_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Average";
+  src: url("../../fonts/latin/average/average_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Averagesans";
+  src: url("../../fonts/latin/averagesans/averagesans_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Baijamjuree";
+  src: url("../../fonts/latin/baijamjuree/baijamjuree_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Barlow";
+  src: url("../../fonts/latin/barlow/barlow_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Barlowcondensed";
+  src: url("../../fonts/latin/barlowcondensed/barlowcondensed_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Bebasneue";
+  src: url("../../fonts/latin/bebasneue/bebasneue_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Bevietnampro";
+  src: url("../../fonts/latin/bevietnampro/bevietnampro_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Bitter";
+  src: url("../../fonts/latin/bitter/bitter_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Cabin";
+  src: url("../../fonts/latin/cabin/cabin_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Cardo";
+  src: url("../../fonts/latin/cardo/cardo_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Chakrapetch";
+  src: url("../../fonts/latin/chakrapetch/chakrapetch_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Chivo";
+  src: url("../../fonts/latin/chivo/chivo_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("../../fonts/latin/cormorant/cormorant_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Crimsontext";
+  src: url("../../fonts/latin/crimsontext/crimsontext_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Didactgothic";
+  src: url("../../fonts/latin/didactgothic/didactgothic_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Dmsans";
+  src: url("../../fonts/latin/dmsans/dmsans_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Domine";
+  src: url("../../fonts/latin/domine/domine_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Ebgaramond";
+  src: url("../../fonts/latin/ebgaramond/ebgaramond_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Encodesans";
+  src: url("../../fonts/latin/encodesans/encodesans_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Epilogue";
+  src: url("../../fonts/latin/epilogue/epilogue_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Exo2";
+  src: url("../../fonts/latin/exo2/exo2_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Fahkwang";
+  src: url("../../fonts/latin/fahkwang/fahkwang_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Figtree";
+  src: url("../../fonts/latin/figtree/figtree_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Firasans";
+  src: url("../../fonts/latin/firasans/firasans_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Francoisone";
+  src: url("../../fonts/latin/francoisone/francoisone_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Gloriahallelujah";
+  src: url("../../fonts/latin/gloriahallelujah/gloriahallelujah_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Gudea";
+  src: url("../../fonts/latin/gudea/gudea_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Heebo";
+  src: url("../../fonts/latin/heebo/heebo_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Hind";
+  src: url("../../fonts/latin/hind/hind_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Hindmadurai";
+  src: url("../../fonts/latin/hindmadurai/hindmadurai_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Ibmplexsans";
+  src: url("../../fonts/latin/ibmplexsans/ibmplexsans_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Ibmplexserif";
+  src: url("../../fonts/latin/ibmplexserif/ibmplexserif_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Inriasans";
+  src: url("../../fonts/latin/inriasans/inriasans_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Inriaserif";
+  src: url("../../fonts/latin/inriaserif/inriaserif_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../fonts/latin/inter/inter_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Intertight";
+  src: url("../../fonts/latin/intertight/intertight_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Josefinsans";
+  src: url("../../fonts/latin/josefinsans/josefinsans_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Kanit";
+  src: url("../../fonts/latin/kanit/kanit_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Karla";
+  src: url("../../fonts/latin/karla/karla_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Kumbhsans";
+  src: url("../../fonts/latin/kumbhsans/kumbhsans_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Lato";
+  src: url("../../fonts/latin/lato/lato_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Leaguespartan";
+  src: url("../../fonts/latin/leaguespartan/leaguespartan_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Lexend";
+  src: url("../../fonts/latin/lexend/lexend_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Librebaskerville";
+  src: url("../../fonts/latin/librebaskerville/librebaskerville_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Librefranklin";
+  src: url("../../fonts/latin/librefranklin/librefranklin_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Lora";
+  src: url("../../fonts/latin/lora/lora_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Manjari";
+  src: url("../../fonts/latin/manjari/manjari_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../../fonts/latin/manrope/manrope_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Martel";
+  src: url("../../fonts/latin/martel/martel_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("../../fonts/latin/merriweather/merriweather_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/latin/montserrat/montserrat_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Mplus1P";
+  src: url("../../fonts/latin/mplus1p/mplus1p_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Mukta";
+  src: url("../../fonts/latin/mukta/mukta_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Mulish";
+  src: url("../../fonts/latin/mulish/mulish_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Nanumgothic";
+  src: url("../../fonts/latin/nanumgothic/nanumgothic_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Newsreader";
+  src: url("../../fonts/latin/newsreader/newsreader_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Notoserif";
+  src: url("../../fonts/latin/notoserif/notoserif_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../fonts/latin/nunito/nunito_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Opensans";
+  src: url("../../fonts/latin/opensans/opensans_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Oswald";
+  src: url("../../fonts/latin/oswald/oswald_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Overlock";
+  src: url("../../fonts/latin/overlock/overlock_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Overpass";
+  src: url("../../fonts/latin/overpass/overpass_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Oxygen";
+  src: url("../../fonts/latin/oxygen/oxygen_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Palanquin";
+  src: url("../../fonts/latin/palanquin/palanquin_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Pathwayextreme";
+  src: url("../../fonts/latin/pathwayextreme/pathwayextreme_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Petrona";
+  src: url("../../fonts/latin/petrona/petrona_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Play";
+  src: url("../../fonts/latin/play/play_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Playfairdisplay";
+  src: url("../../fonts/latin/playfairdisplay/playfairdisplay_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Plusjakartasans";
+  src: url("../../fonts/latin/plusjakartasans/plusjakartasans_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../../fonts/latin/poppins/poppins_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Prata";
+  src: url("../../fonts/latin/prata/prata_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Prompt";
+  src: url("../../fonts/latin/prompt/prompt_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Ptsans";
+  src: url("../../fonts/latin/ptsans/ptsans_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Ptserif";
+  src: url("../../fonts/latin/ptserif/ptserif_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Publicsans";
+  src: url("../../fonts/latin/publicsans/publicsans_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Questrial";
+  src: url("../../fonts/latin/questrial/questrial_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("../../fonts/latin/quicksand/quicksand_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../../fonts/latin/raleway/raleway_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Recursive";
+  src: url("../../fonts/latin/recursive/recursive_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Redhatdisplay";
+  src: url("../../fonts/latin/redhatdisplay/redhatdisplay_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Redhattext";
+  src: url("../../fonts/latin/redhattext/redhattext_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Rem";
+  src: url("../../fonts/latin/rem/rem_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../fonts/latin/roboto/roboto_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Robotoslab";
+  src: url("../../fonts/latin/robotoslab/robotoslab_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Rowdies";
+  src: url("../../fonts/latin/rowdies/rowdies_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../../fonts/latin/rubik/rubik_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Sarala";
+  src: url("../../fonts/latin/sarala/sarala_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Secularone";
+  src: url("../../fonts/latin/secularone/secularone_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Signika";
+  src: url("../../fonts/latin/signika/signika_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Signikanegative";
+  src: url("../../fonts/latin/signikanegative/signikanegative_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Slabo27Px";
+  src: url("../../fonts/latin/slabo27px/slabo27px_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Sora";
+  src: url("../../fonts/latin/sora/sora_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Sourcesans3";
+  src: url("../../fonts/latin/sourcesans3/sourcesans3_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Spacegrotesk";
+  src: url("../../fonts/latin/spacegrotesk/spacegrotesk_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Spectral";
+  src: url("../../fonts/latin/spectral/spectral_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Splinesans";
+  src: url("../../fonts/latin/splinesans/splinesans_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Syne";
+  src: url("../../fonts/latin/syne/syne_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Teko";
+  src: url("../../fonts/latin/teko/teko_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Tenorsans";
+  src: url("../../fonts/latin/tenorsans/tenorsans_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Titilliumweb";
+  src: url("../../fonts/latin/titilliumweb/titilliumweb_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Trirong";
+  src: url("../../fonts/latin/trirong/trirong_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../../fonts/latin/ubuntu/ubuntu_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Unbounded";
+  src: url("../../fonts/latin/unbounded/unbounded_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Unna";
+  src: url("../../fonts/latin/unna/unna_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Urbanist";
+  src: url("../../fonts/latin/urbanist/urbanist_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Varelaround";
+  src: url("../../fonts/latin/varelaround/varelaround_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Vollkorn";
+  src: url("../../fonts/latin/vollkorn/vollkorn_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Worksans";
+  src: url("../../fonts/latin/worksans/worksans_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Yanonekaffeesatz";
+  src: url("../../fonts/latin/yanonekaffeesatz/yanonekaffeesatz_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Yantramanav";
+  src: url("../../fonts/latin/yantramanav/yantramanav_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Zillaslab";
+  src: url("../../fonts/latin/zillaslab/zillaslab_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Anonymouspro";
+  src: url("../../fonts/monospace/anonymouspro/anonymouspro_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Cascadiacode";
+  src: url("../../fonts/monospace/cascadiacode/cascadiacode_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Courierprime";
+  src: url("../../fonts/monospace/courierprime/courierprime_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Cutivemono";
+  src: url("../../fonts/monospace/cutivemono/cutivemono_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Dmmono";
+  src: url("../../fonts/monospace/dmmono/dmmono_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Firacode";
+  src: url("../../fonts/monospace/firacode/firacode_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Firamono";
+  src: url("../../fonts/monospace/firamono/firamono_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Ibmplexmono";
+  src: url("../../fonts/monospace/ibmplexmono/ibmplexmono_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Inconsolata";
+  src: url("../../fonts/monospace/inconsolata/inconsolata_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Jetbrainsmono";
+  src: url("../../fonts/monospace/jetbrainsmono/jetbrainsmono_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Lekton";
+  src: url("../../fonts/monospace/lekton/lekton_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Majormonodisplay";
+  src: url("../../fonts/monospace/majormonodisplay/majormonodisplay_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Martianmono";
+  src: url("../../fonts/monospace/martianmono/martianmono_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Monofett";
+  src: url("../../fonts/monospace/monofett/monofett_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Novamono";
+  src: url("../../fonts/monospace/novamono/novamono_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Overpassmono";
+  src: url("../../fonts/monospace/overpassmono/overpassmono_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Ptmono";
+  src: url("../../fonts/monospace/ptmono/ptmono_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Redhatmono";
+  src: url("../../fonts/monospace/redhatmono/redhatmono_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Robotomono";
+  src: url("../../fonts/monospace/robotomono/robotomono_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Sharetechmono";
+  src: url("../../fonts/monospace/sharetechmono/sharetechmono_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Sono";
+  src: url("../../fonts/monospace/sono/sono_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Sourcecodepro";
+  src: url("../../fonts/monospace/sourcecodepro/sourcecodepro_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Spacemono";
+  src: url("../../fonts/monospace/spacemono/spacemono_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Splinesansmono";
+  src: url("../../fonts/monospace/splinesansmono/splinesansmono_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Synemono";
+  src: url("../../fonts/monospace/synemono/synemono_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Ubuntumono";
+  src: url("../../fonts/monospace/ubuntumono/ubuntumono_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Victormono";
+  src: url("../../fonts/monospace/victormono/victormono_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+
+  font-display: swap;
+}

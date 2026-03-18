@@ -1,0 +1,25 @@
+<svg width="220" height="90" viewBox="0 0 240 90" xmlns="http://www.w3.org/2000/svg">
+  <!-- جسم الزر -->
+  <rect
+    x="10"
+    y="10"
+    width="220"
+    height="70"
+    rx="12"
+    ry="12"
+    fill="#222"
+  />
+
+  <!-- نص Shift -->
+  <text
+    x="120"
+    y="58"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    letter-spacing="2"
+    font-size="38"
+    font-weight="600"
+    fill="#fff">
+    shift
+  </text>
+</svg>

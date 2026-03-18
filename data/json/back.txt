@@ -1,0 +1,84 @@
+        "data": {
+          "bg_color": "#02022a",
+          "overlay_background": "#101015a7",
+          "loading_color": "#b086",
+          "special_color": "#b08",
+          "svg_color": "#779",
+          "svg_hover_color": "#cce",
+          "text_color": "#ccc",
+          "text_hover_color": "#eee",
+          "containers_color": "#111a33",
+          "secondary_color": "#628fc5",
+          "containers_border": "#2d3753",
+          "placeholder_color": "#457",
+          "type_off": "#53576a",
+          "type_correct": "#eeee",
+          "type_incorrect": "#b00",
+          "type_incorrect_extra": "#900a",
+          "error_under_word": "#a00",
+          "buttons_on_color": "#b08",
+          "buttons_off_color": "#040c20",
+          "buttons_hover": "#eee",
+          "special_buttons": "#fff3",
+          "special_buttons_hover": "#fff4",
+          "special_buttons_active": "#fff2",
+          "disable_text_color": "#777",
+          "scroll_color": "#738db5 #0000",
+          "scroll_width": "thin"
+        }
+
+
+
+
+
+
+    /* main colors */
+    --bg-color: #02022a;
+    --overlay-background: #101015a7;
+    --loading-color: #b086;
+    --special-color: #b08;
+    --svg-color: #779;
+    --svg-hover-color: #cce;
+    
+    --text-color: #ccc;
+    --text-hover-color: #eee;
+
+    --containers-color: #111a33;
+    --secondary-color: #628fc5;
+    --containers-border: #2d3753;
+
+    --placeholder-color: #457;
+
+    /* types */
+    --type-off: #53576a;
+    --type-correct: #eeee;
+    --type-incorrect: #b00;
+    --type-incorrect-extra: #900a;
+
+    --error_under_word: #a00;
+
+    /* buttons-color */
+    --buttons-on-color: #b08;
+    --buttons-off-color: #040c20;
+    --buttons-hover: #eee;
+
+    --special-buttons: #fff3;
+    --special-buttons-hover: #fff4;
+    --special-buttons-active: #fff2;
+
+    --disable-text-color: #777;
+
+    /* scroll */
+    --scroll-color: #738db5 #0000;
+    --scroll-width: thin;
+
+
+    /* static */
+
+    /* auth */
+    --buttons-special-color: #904;
+    --block-color: #904;
+
+
+
+

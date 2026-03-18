@@ -1,0 +1,152 @@
+
+:root{
+    /* themes */
+    
+    /* core */
+    --core-bg: #02022a;
+    --core-panel: #111a33;
+    --core-text: #cccccc;
+    --core-text-hover: #333333;
+    --core-muted: #53576a;
+    --core-border: #2d3753;
+    --core-overlay: #1119;
+    --core-muted-hover: #cbd2cb;
+
+    --core-main-bg: var(--core-bg);
+
+
+    --typing-correct: #eeee;
+
+    --typing-incorrect: #b00;
+    --typing-extra: #900a;
+    --typing-inactive: #53576a;
+
+    --typing-pending-light: color-mix(in srgb, var(--typing-pending) 65%, #0000);
+
+
+    --accent-primary: #b08;
+
+
+    --core-scroll-color: #738db5 #0000;
+    --core-scroll-width: thin;
+
+    --core-tooltip-color: #eee;
+    
+    --chart-bg: color-mix(in srgb, var(--core-bg) 60%, #0000);
+    --input-bg: color-mix(in srgb, var(--core-panel) 85%, black);
+    --input-bg-hover: color-mix(in srgb, var(--core-panel) 75%, black);
+    --input-border: var(--core-border);
+
+    --core-board: color-mix(in srgb, var(--accent-primary) 25%, #0000);
+    --core-board-hover: color-mix(in srgb, var(--core-board) 80%, #aaa);
+    
+    --core-slider: color-mix(in srgb, var(--accent-primary) 75%, #0000);
+    --core-slider-thumb: color-mix(in srgb, var(--core-slider) 60%, #fff);
+
+    --scrollUp-container: color-mix(in srgb, var(--accent-primary) 50%, #0000);
+    --scrollUp-container-hover: color-mix(in srgb, var(--accent-primary) 60%, #0000);
+
+    --sidebar-fade: color-mix(in srgb, var(--core-bg) 75%, #0000);
+
+    --text-disable: color-mix(in srgb, var(--core-muted) 50%, #0000);
+    --sidebar-search-mark-extra: color-mix(in srgb, var(--typing-extra) 45%, #0000);
+    --sidebar-search-mark-incorrect: color-mix(in srgb, var(--typing-incorrect) 35%, #0000);
+
+    /* static */
+    
+    /* background image */
+    --backgound-image-url: none;
+    --sidenav-image: var(--core-bg);
+
+    /* background image filters */
+    --bg-blur: 0px;
+    --bg-brightness: 100%;
+    --bg-contrast: 100%;
+    --bg-grayscale: 100%;
+    --bg-hueRotate: 0deg;
+    --bg-invert: 100%;
+    --bg-opacity: 1;
+    --bg-saturate: 100%;
+    --bg-drop-shadow: 0px 0px 0px #000;
+
+
+    /* screen */
+    --screenHeight: 650px;
+    
+
+    /* fonts */
+    --font-family-global: monospace; /* default */
+    --font-size-global: 1;
+    --font-size-typing: 1;
+
+
+    /* spacing */
+    --words-spacing: 0px;
+    --letter-spacing-typing: 0px;
+    --error-under-word-height: 2px;
+    --typing-line-height: 10px;
+
+
+
+
+    /* caret */
+    --caret-strong: 1.5;
+    --caret-transition: 170ms;
+    --caret-blink: 500ms;
+
+    /* glow */
+    --glow-inactiveLetter: 0px;
+    --glow-correctLetter: 0px;
+    --glow-incorrectLetter: 0px;
+    --glow-extraLetter: 0px;
+
+    --glow-global: 0px;
+
+    /* letters transition */
+    --letters-transition-typing: 0ms;
+
+    /* sidebar default width */
+    --sidebar-width: 40px;
+    --sidebar-open-width: 280px;
+    --sidebar-close-width: 40px;
+    --sidebar-translate: 0px;
+    --sidebar-scrollbar-width: 10px;
+    --sidebar-search-result-height: 30px;
+    --sidebar-scrollbar-color: var(--core-muted);
+    --sidebar-scrollbar-color-hover: color-mix(in srgb, var(--core-muted-hover) 75%, #0000);
+
+    /* navbar default height */
+    --navbar-height: 40px;
+
+    /* text area */
+    --text_area_height: 200px;
+    --text-box-width: 90%;
+
+    /* tooltips */
+    --letter-stats-danger-tooltip-y: 0;
+    --letter-stats-danger-tooltip-x: 0;
+
+    /* messages */
+
+    /* info */
+    --message-error-background: #f269; 
+    --message-error-color: #f26;
+
+    --message-success-background: #2f69;
+    --message-success-color: #2f6;
+
+    --message-info-background: #04b9;
+    --message-info-color: #07d;
+
+
+
+    --text_area-margin-x: 5%;
+    --text_area-margin-y: 10;
+    --grid_space_height: 60px;
+
+    --header_space_width: 0px;
+    --header-height: 50px;
+    --final-header-height: calc(var(--header-height * --font-size-global));
+
+    --footer-height: 160px;
+}

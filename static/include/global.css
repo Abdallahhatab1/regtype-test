@@ -1,0 +1,322 @@
+* {
+    box-sizing: border-box;
+    text-shadow: 0 0 var(--glow-global) currentColor;
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;   
+
+    width: 100%;
+    height: 100%;
+
+    min-width: fit-content;
+    min-height: fit-content;
+
+    scrollbar-color: var(--core-scroll-color);
+    scrollbar-width: var(--core-scroll-width);
+
+    overflow: hidden;
+}
+html {
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+
+
+/* لون المقبض (الجزء الذي يتحرك) */
+body .os-scrollbar-handle {
+    background: var(--sidebar-scrollbar-color);   /* اختر اللون الذي يناسب ثيمك */
+    border-radius: 0px;
+}
+body .os-scrollbar-handle:hover {
+    background: var(--sidebar-scrollbar-color-hover);
+}
+body .os-scrollbar {
+    width: var(--sidebar-scrollbar-width);
+    opacity: 0;
+    transition: 
+        opacity 1.5s ease,
+        transform 1.5s ease;
+}
+
+
+body:hover .os-scrollbar {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 
+        opacity 250ms ease,
+        transform 250ms ease;
+}
+
+
+::selection {
+    color: var(--core-bg);
+    background: var(--accent-primary);
+}
+
+body {
+    background: var(--core-bg);
+    font-family: var(--font-family-global);
+    line-height: 1;
+    color: var(--core-text);
+    position: relative; /* مهم للـ ::before */
+    overflow: hidden;
+
+}
+
+body::before {
+    content: "";  /* مهم جداً */
+        display: block;       /* بعض المتصفحات تحتاج block */
+
+    position: fixed; /* تبقى الصورة ثابتة عند التمرير */
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: -1;  /* خلف كل المحتوى */
+    
+    background-image: var(--background-image-url);
+
+    background-size: var(--background-size);
+
+    background-position: center;
+    background-repeat: no-repeat;
+
+    filter: 
+        blur(var(--bg-blur)) 
+        brightness(var(--bg-brightness)) 
+        contrast(var(--bg-contrast)) 
+        grayscale(var(--bg-grayscale)) 
+        invert(var(--bg-invert)) 
+        opacity(var(--bg-opacity)) 
+
+}
+
+.tooltip {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+   
+    padding: 3px 5px;
+    margin: 20px 0 0 0;
+    border-radius: 5px;
+    font-size: calc(14px * var(--font-scale));
+    font-weight: 500;
+    z-index: 10;
+    pointer-events: none;
+    opacity: 0;
+
+    border-radius: 5px;
+    align-items: center;
+
+    transition: opacity .25s ease;
+    animation: 250ms hideTooltip 0s forwards;
+}
+
+.tooltip.show {
+    animation: 250ms showTooltip 0s forwards;
+    opacity: 1;
+}
+
+@keyframes showTooltip{
+    from {
+        transform: translateY(12px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+@keyframes hideTooltip{
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(5px);
+    }
+}
+
+
+.tooltip .content {
+    color: var(--core-tooltip-color);
+    background: #000d;
+    padding: 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+
+}
+
+.tooltip svg {
+    margin: -50px 0px 0px 0px;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+
+/* start messages system */
+.messagesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0 0 0;
+    position: fixed;
+    z-index: 20;
+
+    right: calc(var(--sidebar-scrollbar-width) + 5px);
+    height: fit-content;
+    width: fit-content;
+}
+.messagesContainer .msgBlock {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 7px;
+
+    background: var(--message-error-background);
+    box-shadow: inset 0 0 0 2px var(--typing-incorrect);
+    padding: 10px 5px 10px 10px;
+    border-radius: 17px;
+
+    width: fit-content;
+    height: fit-content;
+    min-width: 250px;
+    min-height: 40px;
+
+    animation: 0.7s msgIn 0s ease; 
+    transition: transform 0.5s ease;
+
+}
+
+.messagesContainer .msgBlock.goBack {
+    animation: 0.7s msgOut 0s forwards; 
+}
+
+.messagesContainer .msgBlock .closeSvg {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.messagesContainer .msgBlock .closeSvg svg {
+    width: 20px;
+    height: 20px
+}
+.messagesContainer .msgBlock .closeSvg svg path {
+    fill: none;
+}
+
+.messagesContainer .msgBlock:hover.error .closeSvg svg path {
+    fill: var(--message-error-color);
+}
+.messagesContainer .msgBlock:hover.success .closeSvg svg path {
+    fill: var(--message-success-color);
+}
+.messagesContainer .msgBlock:hover.info .closeSvg svg path {
+    fill: var(--message-info-color);
+}
+
+.messagesContainer .msgBlock.error .closeSvg:hover svg path {
+    fill: var(--core-text);
+}
+.messagesContainer .msgBlock.success .closeSvg:hover svg path {
+    fill: var(--core-text);
+}
+.messagesContainer .msgBlock.info .closeSvg:hover svg path {
+    fill: var(--core-text);
+}
+
+
+.messagesContainer .msgBlock .messageTitle {
+    display: -webkit-box;    
+
+    -webkit-line-clamp: 20;   /* عدد الأسطر */
+    -webkit-box-orient: vertical;    
+
+    font-size: 15px;
+    color: var(--core-text);
+    width: 100%;
+    max-width: 70vw;
+    min-height: 100%;
+    align-content: center;
+    line-height: 25px;
+
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.messagesContainer .msgBlock .messageTitle a {
+    color: var(--core-text);
+    background: #fff2;
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+
+.messagesContainer .msgBlock .msgSvgAndTitle {
+    display: flex;
+    gap: 5px;
+
+    width: 100%;
+    height: 100%;
+
+}
+.messagesContainer .msgBlock .msgTitle {
+    font-size: 19px;
+    color: var(--core-text);
+    align-content: center;
+}
+.messagesContainer .msgBlock .msgSvgAndTitle .msgSvg  svg{
+    width: 20px;
+    height: 100%;
+}
+
+@keyframes msgIn {
+    0% {transform: translateX(calc(100% + 30px))}
+    100% {transform: translateX(0px)}
+}
+@keyframes msgOut {
+    0% {transform: translateX(0px)}
+    100% {transform: translateX(calc(100% + 20px))}
+}
+
+.messagesContainer .msgBlock.error {
+    background: var(--message-error-background);
+    box-shadow: inset 0 0 0 2px var(--message-error-color);
+}
+.messagesContainer .msgBlock.error .msgSvgAndTitle .msgTitle{
+    color: var(--message-error-color);
+}
+.messagesContainer .msgBlock.error .msgSvgAndTitle .msgSvg svg{
+    fill: var(--message-error-color);
+}
+
+
+.messagesContainer .msgBlock.success {
+    background: var(--message-success-background);
+    box-shadow: inset 0 0 0 2px var(--message-success-color);
+}.messagesContainer .msgBlock.success .msgSvgAndTitle .msgTitle{
+    color: var(--message-success-color);
+}.messagesContainer .msgBlock.success .msgSvgAndTitle .msgSvg svg{
+    fill: var(--message-success-color);
+}
+.messagesContainer .msgBlock.info {
+    background: var(--message-info-background);
+    box-shadow: inset 0 0 0 2px var(--message-info-color);
+}.messagesContainer .msgBlock.info .msgSvgAndTitle .msgTitle{
+    color: var(--message-info-color);
+}
+
+.messagesContainer .msgBlock.info .msgSvgAndTitle .msgSvg svg{
+    fill: var(--message-info-color);
+}
+.messagesContainer .msgBlock.info .msgSvgAndTitle .msgSvg svg path{
+    fill: var(--message-info-color);
+}
+/* end messages system */
+
+
+
+
+
+

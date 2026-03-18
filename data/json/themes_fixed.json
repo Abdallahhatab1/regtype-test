@@ -1,0 +1,2216 @@
+{
+  "dark": [
+    {
+      "name": "RegLink Dark",
+      "colors": [
+        "#ffffff",
+        "#ffff33",
+        "#0011ff"
+      ],
+      "mainColor": "#fff",
+      "data": {
+        "core_bg": "#02022a",
+        "core_panel": "#111a33",
+        "core_text": "#ccc",
+        "core_text_hover": "#aaa2",
+        "core_muted": "#53576a",
+        "core_muted_hover": "#75798c",
+        "core_border": "#2d3753",
+        "core_scroll_color": "#738db5 #0000",
+        "typing_correct": "#eeee",
+        "typing_incorrect": "#b00",
+        "typing_extra": "#900a",
+        "typing_inactive": "#53576a",
+        "accent_primary": "#b08"
+      }
+    },
+    {
+      "name": "Dracula",
+      "colors": [
+        "#bd93f9",
+        "#50fa7b",
+        "#ff5555"
+      ],
+      "data": {
+        "core_bg": "#282a36",
+        "core_panel": "#343746",
+        "core_text": "#f8f8f2",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#6272a4",
+        "core_muted_hover": "#8be9fd",
+        "core_border": "#44475a",
+        "core_scroll_color": "#6272a4 #0000",
+        "typing_correct": "#50fa7b",
+        "typing_incorrect": "#ff5555",
+        "typing_extra": "#ff79c6aa",
+        "typing_inactive": "#6272a4",
+        "accent_primary": "#bd93f9"
+      }
+    },
+    {
+      "name": "Monokai",
+      "colors": [
+        "#f8f8f2",
+        "#f92672",
+        "#9da08f"
+      ],
+      "data": {
+        "core_bg": "#272822",
+        "core_panel": "#2f302a",
+        "core_text": "#f8f8f2",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#75715e",
+        "core_muted_hover": "#a6a38d",
+        "core_border": "#3e3d32",
+        "core_scroll_color": "#75715e #0000",
+        "typing_correct": "#a6e22e",
+        "typing_incorrect": "#f92672",
+        "typing_extra": "#fd971faa",
+        "typing_inactive": "#75715e",
+        "accent_primary": "#f92672"
+      }
+    },
+    {
+      "name": "One Dark",
+      "colors": [
+        "#abb2bf",
+        "#61afef",
+        "#949cad"
+      ],
+      "data": {
+        "core_bg": "#282c34",
+        "core_panel": "#21252b",
+        "core_text": "#abb2bf",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#5c6370",
+        "core_muted_hover": "#7f848e",
+        "core_border": "#3e4451",
+        "core_scroll_color": "#5c6370 #0000",
+        "typing_correct": "#98c379",
+        "typing_incorrect": "#e06c75",
+        "typing_extra": "#d19a66aa",
+        "typing_inactive": "#5c6370",
+        "accent_primary": "#61afef"
+      }
+    },
+    {
+      "name": "Nord",
+      "colors": [
+        "#d8dee9",
+        "#88c0d0",
+        "#9ba5b7"
+      ],
+      "data": {
+        "core_bg": "#2e3440",
+        "core_panel": "#3b4252",
+        "core_text": "#d8dee9",
+        "core_text_hover": "#eceff4",
+        "core_muted": "#81a1c1",
+        "core_muted_hover": "#88c0d0",
+        "core_border": "#434c5e",
+        "core_scroll_color": "#81a1c1 #0000",
+        "typing_correct": "#a3be8c",
+        "typing_incorrect": "#bf616a",
+        "typing_extra": "#ebcb8baa",
+        "typing_inactive": "#4c566a",
+        "accent_primary": "#88c0d0"
+      }
+    },
+    {
+      "name": "Gruvbox Dark",
+      "colors": [
+        "#ebdbb2",
+        "#fabd2f",
+        "#9a9a9a"
+      ],
+      "data": {
+        "core_bg": "#282828",
+        "core_panel": "#32302f",
+        "core_text": "#ebdbb2",
+        "core_text_hover": "#fbf1c7",
+        "core_muted": "#928374",
+        "core_muted_hover": "#bdae93",
+        "core_border": "#3c3836",
+        "core_scroll_color": "#928374 #0000",
+        "typing_correct": "#b8bb26",
+        "typing_incorrect": "#fb4934",
+        "typing_extra": "#fe8019aa",
+        "typing_inactive": "#928374",
+        "accent_primary": "#fabd2f"
+      }
+    },
+    {
+      "name": "Solarized Dark",
+      "colors": [
+        "#839496",
+        "#b58900",
+        "#1cd0ff"
+      ],
+      "data": {
+        "core_bg": "#002b36",
+        "core_panel": "#073642",
+        "core_text": "#839496",
+        "core_text_hover": "#93a1a1",
+        "core_muted": "#586e75",
+        "core_muted_hover": "#657b83",
+        "core_border": "#0f3d46",
+        "core_scroll_color": "#586e75 #0000",
+        "typing_correct": "#859900",
+        "typing_incorrect": "#dc322f",
+        "typing_extra": "#cb4b16aa",
+        "typing_inactive": "#586e75",
+        "accent_primary": "#b58900"
+      }
+    },
+    {
+      "name": "Material Dark",
+      "colors": [
+        "#eeffff",
+        "#82aaff",
+        "#8fa7b3"
+      ],
+      "data": {
+        "core_bg": "#263238",
+        "core_panel": "#2e3c43",
+        "core_text": "#eeffff",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#90a4ae",
+        "core_muted_hover": "#b0bec5",
+        "core_border": "#37474f",
+        "core_scroll_color": "#90a4ae #0000",
+        "typing_correct": "#c3e88d",
+        "typing_incorrect": "#f07178",
+        "typing_extra": "#ffcb6baa",
+        "typing_inactive": "#90a4ae",
+        "accent_primary": "#82aaff"
+      }
+    },
+    {
+      "name": "Tokyo Night",
+      "colors": [
+        "#c0caf5",
+        "#7aa2f7",
+        "#7e81a7"
+      ],
+      "data": {
+        "core_bg": "#1a1b26",
+        "core_panel": "#24283b",
+        "core_text": "#c0caf5",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#565f89",
+        "core_muted_hover": "#7aa2f7",
+        "core_border": "#414868",
+        "core_scroll_color": "#565f89 #0000",
+        "typing_correct": "#9ece6a",
+        "typing_incorrect": "#f7768e",
+        "typing_extra": "#e0af68aa",
+        "typing_inactive": "#565f89",
+        "accent_primary": "#7aa2f7"
+      }
+    },
+    {
+      "name": "Night Owl",
+      "colors": [
+        "#d6deeb",
+        "#82aaff",
+        "#1492f8"
+      ],
+      "data": {
+        "core_bg": "#011627",
+        "core_panel": "#011e2f",
+        "core_text": "#d6deeb",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#637777",
+        "core_muted_hover": "#82aaff",
+        "core_border": "#1d3b53",
+        "core_scroll_color": "#637777 #0000",
+        "typing_correct": "#22da6e",
+        "typing_incorrect": "#ef5350",
+        "typing_extra": "#ecc48daa",
+        "typing_inactive": "#637777",
+        "accent_primary": "#82aaff"
+      }
+    },
+    {
+      "name": "Palenight",
+      "colors": [
+        "#bfc7d5",
+        "#c792ea",
+        "#949bb8"
+      ],
+      "data": {
+        "core_bg": "#292d3e",
+        "core_panel": "#32374d",
+        "core_text": "#bfc7d5",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#676e95",
+        "core_muted_hover": "#c792ea",
+        "core_border": "#3f445b",
+        "core_scroll_color": "#676e95 #0000",
+        "typing_correct": "#c3e88d",
+        "typing_incorrect": "#f07178",
+        "typing_extra": "#ffcb6baa",
+        "typing_inactive": "#676e95",
+        "accent_primary": "#c792ea"
+      }
+    },
+    {
+      "name": "Cobalt2",
+      "colors": [
+        "#ffffff",
+        "#ffcc00",
+        "#77abd0"
+      ],
+      "data": {
+        "core_bg": "#193549",
+        "core_panel": "#1f4662",
+        "core_text": "#ffffff",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#8fb1c7",
+        "core_muted_hover": "#ffcc00",
+        "core_border": "#2a5d7c",
+        "core_scroll_color": "#8fb1c7 #0000",
+        "typing_correct": "#3ad900",
+        "typing_incorrect": "#ff628c",
+        "typing_extra": "#ffc600aa",
+        "typing_inactive": "#8fb1c7",
+        "accent_primary": "#ffcc00"
+      }
+    },
+    {
+      "name": "Ayu Dark",
+      "colors": [
+        "#e6e1cf",
+        "#ffcc66",
+        "#6886a4"
+      ],
+      "data": {
+        "core_bg": "#0f1419",
+        "core_panel": "#14191f",
+        "core_text": "#e6e1cf",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#5c6773",
+        "core_muted_hover": "#ffcc66",
+        "core_border": "#1f2430",
+        "core_scroll_color": "#5c6773 #0000",
+        "typing_correct": "#aad94c",
+        "typing_incorrect": "#f07178",
+        "typing_extra": "#ff8f40aa",
+        "typing_inactive": "#5c6773",
+        "accent_primary": "#ffcc66"
+      }
+    },
+    {
+      "name": "Cyberpunk",
+      "colors": [
+        "#f8f8f8",
+        "#ff00ff",
+        "#674af6"
+      ],
+      "data": {
+        "core_bg": "#120458",
+        "core_panel": "#1b0c6b",
+        "core_text": "#f8f8f8",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#8a7ca8",
+        "core_muted_hover": "#ff00ff",
+        "core_border": "#302070",
+        "core_scroll_color": "#8a7ca8 #0000",
+        "typing_correct": "#00ff9c",
+        "typing_incorrect": "#ff0055",
+        "typing_extra": "#00e5ffaa",
+        "typing_inactive": "#8a7ca8",
+        "accent_primary": "#ff00ff"
+      }
+    },
+    {
+      "name": "Horizon Dark",
+      "colors": [
+        "#d5d8da",
+        "#e95678",
+        "#838aa3"
+      ],
+      "data": {
+        "core_bg": "#1c1e26",
+        "core_panel": "#232530",
+        "core_text": "#d5d8da",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#6f6f70",
+        "core_muted_hover": "#e95678",
+        "core_border": "#2e303e",
+        "core_scroll_color": "#6f6f70 #0000",
+        "typing_correct": "#29d398",
+        "typing_incorrect": "#e95678",
+        "typing_extra": "#fab795aa",
+        "typing_inactive": "#6f6f70",
+        "accent_primary": "#e95678"
+      }
+    },
+    {
+      "name": "Moonlight",
+      "colors": [
+        "#c8d3f5",
+        "#82aaff",
+        "#888db4"
+      ],
+      "data": {
+        "core_bg": "#222436",
+        "core_panel": "#2a2e45",
+        "core_text": "#c8d3f5",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#636da6",
+        "core_muted_hover": "#82aaff",
+        "core_border": "#3b3f5c",
+        "core_scroll_color": "#636da6 #0000",
+        "typing_correct": "#c3e88d",
+        "typing_incorrect": "#ff757f",
+        "typing_extra": "#ffc777aa",
+        "typing_inactive": "#636da6",
+        "accent_primary": "#82aaff"
+      }
+    },
+    {
+      "name": "SynthWave 84",
+      "colors": [
+        "#ffffff",
+        "#ff7edb",
+        "#918bb2"
+      ],
+      "data": {
+        "core_bg": "#262335",
+        "core_panel": "#2f2b45",
+        "core_text": "#ffffff",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#8b86b3",
+        "core_muted_hover": "#ff7edb",
+        "core_border": "#3a3558",
+        "core_scroll_color": "#8b86b3 #0000",
+        "typing_correct": "#72f1b8",
+        "typing_incorrect": "#fe4450",
+        "typing_extra": "#fede5daa",
+        "typing_inactive": "#8b86b3",
+        "accent_primary": "#ff7edb"
+      }
+    },
+    {
+      "name": "Darcula",
+      "colors": [
+        "#a9b7c6",
+        "#ffc66d",
+        "#9d9d9d"
+      ],
+      "data": {
+        "core_bg": "#2b2b2b",
+        "core_panel": "#323232",
+        "core_text": "#a9b7c6",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#606366",
+        "core_muted_hover": "#ffc66d",
+        "core_border": "#3c3f41",
+        "core_scroll_color": "#606366 #0000",
+        "typing_correct": "#6a8759",
+        "typing_incorrect": "#cc6666",
+        "typing_extra": "#d8a657aa",
+        "typing_inactive": "#606366",
+        "accent_primary": "#ffc66d"
+      }
+    },
+    {
+      "name": "Oceanic Next",
+      "colors": [
+        "#c0c5ce",
+        "#6699cc",
+        "#7aa3ba"
+      ],
+      "data": {
+        "core_bg": "#1b2b34",
+        "core_panel": "#22333d",
+        "core_text": "#c0c5ce",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#65737e",
+        "core_muted_hover": "#6699cc",
+        "core_border": "#4f5b66",
+        "core_scroll_color": "#65737e #0000",
+        "typing_correct": "#99c794",
+        "typing_incorrect": "#ec5f67",
+        "typing_extra": "#fac863aa",
+        "typing_inactive": "#65737e",
+        "accent_primary": "#6699cc"
+      }
+    },
+    {
+      "name": "Atom One Dark",
+      "colors": [
+        "#abb2bf",
+        "#98c379",
+        "#8b96a6"
+      ],
+      "data": {
+        "core_bg": "#21252b",
+        "core_panel": "#282c34",
+        "core_text": "#abb2bf",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#5c6370",
+        "core_muted_hover": "#98c379",
+        "core_border": "#3e4451",
+        "core_scroll_color": "#5c6370 #0000",
+        "typing_correct": "#98c379",
+        "typing_incorrect": "#e06c75",
+        "typing_extra": "#d19a66aa",
+        "typing_inactive": "#5c6370",
+        "accent_primary": "#98c379"
+      }
+    },
+    {
+      "name": "Zenburn",
+      "colors": [
+        "#dcdccc",
+        "#f0dfaf",
+        "#b1b1b1"
+      ],
+      "data": {
+        "core_bg": "#3f3f3f",
+        "core_panel": "#4f4f4f",
+        "core_text": "#dcdccc",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#7f9f7f",
+        "core_muted_hover": "#f0dfaf",
+        "core_border": "#5f5f5f",
+        "core_scroll_color": "#7f9f7f #0000",
+        "typing_correct": "#7f9f7f",
+        "typing_incorrect": "#cc9393",
+        "typing_extra": "#dca3a3aa",
+        "typing_inactive": "#7f9f7f",
+        "accent_primary": "#f0dfaf"
+      }
+    },
+    {
+      "name": "GitHub Dark",
+      "colors": [
+        "#c9d1d9",
+        "#58a6ff",
+        "#627da6"
+      ],
+      "data": {
+        "core_bg": "#0d1117",
+        "core_panel": "#161b22",
+        "core_text": "#c9d1d9",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#8b949e",
+        "core_muted_hover": "#58a6ff",
+        "core_border": "#30363d",
+        "core_scroll_color": "#8b949e #0000",
+        "typing_correct": "#3fb950",
+        "typing_incorrect": "#f85149",
+        "typing_extra": "#d29922aa",
+        "typing_inactive": "#8b949e",
+        "accent_primary": "#58a6ff"
+      }
+    },
+    {
+      "name": "Deep Dark",
+      "colors": [
+        "#ffffff",
+        "#00bcd4",
+        "#7b7b7b"
+      ],
+      "data": {
+        "core_bg": "#090909",
+        "core_panel": "#121212",
+        "core_text": "#ffffff",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#7a7a7a",
+        "core_muted_hover": "#00bcd4",
+        "core_border": "#1e1e1e",
+        "core_scroll_color": "#7a7a7a #0000",
+        "typing_correct": "#00e676",
+        "typing_incorrect": "#ff5252",
+        "typing_extra": "#40c4ffaa",
+        "typing_inactive": "#7a7a7a",
+        "accent_primary": "#00bcd4"
+      }
+    },
+    {
+      "name": "Blackboard",
+      "colors": [
+        "#f8f8f8",
+        "#ffaa00",
+        "#5267c0"
+      ],
+      "data": {
+        "core_bg": "#0c1021",
+        "core_panel": "#161a2e",
+        "core_text": "#f8f8f8",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#8a8a8a",
+        "core_muted_hover": "#ffaa00",
+        "core_border": "#2a2f4a",
+        "core_scroll_color": "#8a8a8a #0000",
+        "typing_correct": "#00ff9c",
+        "typing_incorrect": "#ff5370",
+        "typing_extra": "#ffcb6baa",
+        "typing_inactive": "#8a8a8a",
+        "accent_primary": "#ffaa00"
+      }
+    },
+    {
+      "name": "Tomorrow Night",
+      "colors": [
+        "#c5c8c6",
+        "#81a2be",
+        "#8a9198"
+      ],
+      "data": {
+        "core_bg": "#1d1f21",
+        "core_panel": "#282a2e",
+        "core_text": "#c5c8c6",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#969896",
+        "core_muted_hover": "#81a2be",
+        "core_border": "#373b41",
+        "core_scroll_color": "#969896 #0000",
+        "typing_correct": "#b5bd68",
+        "typing_incorrect": "#cc6666",
+        "typing_extra": "#f0c674aa",
+        "typing_inactive": "#969896",
+        "accent_primary": "#81a2be"
+      }
+    },
+    {
+      "name": "Iceberg",
+      "colors": [
+        "#c6c8d1",
+        "#84a0c6",
+        "#777fa4"
+      ],
+      "data": {
+        "core_bg": "#161821",
+        "core_panel": "#1e2132",
+        "core_text": "#c6c8d1",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#6b7089",
+        "core_muted_hover": "#84a0c6",
+        "core_border": "#2a2f45",
+        "core_scroll_color": "#6b7089 #0000",
+        "typing_correct": "#89b8c2",
+        "typing_incorrect": "#e27878",
+        "typing_extra": "#e2a478aa",
+        "typing_inactive": "#6b7089",
+        "accent_primary": "#84a0c6"
+      }
+    },
+    {
+      "name": "Kanagawa",
+      "colors": [
+        "#dcd7ba",
+        "#7e9cd8",
+        "#8888a3"
+      ],
+      "data": {
+        "core_bg": "#1f1f28",
+        "core_panel": "#2a2a37",
+        "core_text": "#dcd7ba",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#727169",
+        "core_muted_hover": "#7e9cd8",
+        "core_border": "#363646",
+        "core_scroll_color": "#727169 #0000",
+        "typing_correct": "#98bb6c",
+        "typing_incorrect": "#e46876",
+        "typing_extra": "#ffa066aa",
+        "typing_inactive": "#727169",
+        "accent_primary": "#7e9cd8"
+      }
+    },
+    {
+      "name": "Rose Pine",
+      "colors": [
+        "#e0def4",
+        "#ebbcba",
+        "#7f77a8"
+      ],
+      "data": {
+        "core_bg": "#191724",
+        "core_panel": "#1f1d2e",
+        "core_text": "#e0def4",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#6e6a86",
+        "core_muted_hover": "#ebbcba",
+        "core_border": "#26233a",
+        "core_scroll_color": "#6e6a86 #0000",
+        "typing_correct": "#9ccfd8",
+        "typing_incorrect": "#eb6f92",
+        "typing_extra": "#f6c177aa",
+        "typing_inactive": "#6e6a86",
+        "accent_primary": "#ebbcba"
+      }
+    },
+    {
+      "name": "Catppuccin Mocha",
+      "colors": [
+        "#cdd6f4",
+        "#f38ba8",
+        "#8383ae"
+      ],
+      "data": {
+        "core_bg": "#1e1e2e",
+        "core_panel": "#262637",
+        "core_text": "#cdd6f4",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#7f849c",
+        "core_muted_hover": "#f38ba8",
+        "core_border": "#313244",
+        "core_scroll_color": "#7f849c #0000",
+        "typing_correct": "#a6e3a1",
+        "typing_incorrect": "#f38ba8",
+        "typing_extra": "#fab387aa",
+        "typing_inactive": "#7f849c",
+        "accent_primary": "#f38ba8"
+      }
+    },
+    {
+      "name": "Everforest Dark",
+      "colors": [
+        "#d3c6aa",
+        "#a7c080",
+        "#98a6b1"
+      ],
+      "data": {
+        "core_bg": "#2b3339",
+        "core_panel": "#323c41",
+        "core_text": "#d3c6aa",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#859289",
+        "core_muted_hover": "#a7c080",
+        "core_border": "#3a444a",
+        "core_scroll_color": "#859289 #0000",
+        "typing_correct": "#a7c080",
+        "typing_incorrect": "#e67e80",
+        "typing_extra": "#dbbc7faa",
+        "typing_inactive": "#859289",
+        "accent_primary": "#a7c080"
+      }
+    },
+    {
+      "name": "Vesper",
+      "colors": [
+        "#ffffff",
+        "#ffc799",
+        "#828282"
+      ],
+      "data": {
+        "core_bg": "#101010",
+        "core_panel": "#181818",
+        "core_text": "#ffffff",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#8c8c8c",
+        "core_muted_hover": "#ffc799",
+        "core_border": "#262626",
+        "core_scroll_color": "#8c8c8c #0000",
+        "typing_correct": "#99ffe4",
+        "typing_incorrect": "#ff8080",
+        "typing_extra": "#ffd699aa",
+        "typing_inactive": "#8c8c8c",
+        "accent_primary": "#ffc799"
+      }
+    },
+    {
+      "name": "Shades of Purple",
+      "colors": [
+        "#ffffff",
+        "#ff9d00",
+        "#9c99cb"
+      ],
+      "data": {
+        "core_bg": "#2d2b55",
+        "core_panel": "#3a3870",
+        "core_text": "#ffffff",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#a599e9",
+        "core_muted_hover": "#ff9d00",
+        "core_border": "#4d4a7a",
+        "core_scroll_color": "#a599e9 #0000",
+        "typing_correct": "#c3e88d",
+        "typing_incorrect": "#ff628c",
+        "typing_extra": "#ffcb6baa",
+        "typing_inactive": "#a599e9",
+        "accent_primary": "#ff9d00"
+      }
+    },
+    {
+      "name": "Dark+ (VS Code)",
+      "colors": [
+        "#d4d4d4",
+        "#569cd6",
+        "#909090"
+      ],
+      "data": {
+        "core_bg": "#1e1e1e",
+        "core_panel": "#252526",
+        "core_text": "#d4d4d4",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#808080",
+        "core_muted_hover": "#569cd6",
+        "core_border": "#3c3c3c",
+        "core_scroll_color": "#808080 #0000",
+        "typing_correct": "#6a9955",
+        "typing_incorrect": "#f44747",
+        "typing_extra": "#ce9178aa",
+        "typing_inactive": "#808080",
+        "accent_primary": "#569cd6"
+      }
+    },
+    {
+      "name": "Midnight",
+      "colors": [
+        "#cccccc",
+        "#00ffff",
+        "#727272"
+      ],
+      "data": {
+        "core_bg": "#000000",
+        "core_panel": "#0a0a0a",
+        "core_text": "#cccccc",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#666666",
+        "core_muted_hover": "#00ffff",
+        "core_border": "#1a1a1a",
+        "core_scroll_color": "#666666 #0000",
+        "typing_correct": "#00ffcc",
+        "typing_incorrect": "#ff5555",
+        "typing_extra": "#66ffffaa",
+        "typing_inactive": "#666666",
+        "accent_primary": "#00ffff"
+      }
+    },
+    {
+      "name": "Neon Dark",
+      "colors": [
+        "#f8f8f8",
+        "#39ff14",
+        "#7c7c7c"
+      ],
+      "data": {
+        "core_bg": "#0a0a0a",
+        "core_panel": "#121212",
+        "core_text": "#f8f8f8",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#7a7a7a",
+        "core_muted_hover": "#39ff14",
+        "core_border": "#1e1e1e",
+        "core_scroll_color": "#7a7a7a #0000",
+        "typing_correct": "#39ff14",
+        "typing_incorrect": "#ff5555",
+        "typing_extra": "#00ffccaa",
+        "typing_inactive": "#7a7a7a",
+        "accent_primary": "#39ff14"
+      }
+    },
+    {
+      "name": "Obsidian",
+      "colors": [
+        "#e0e0e0",
+        "#ff9800",
+        "#8e8e8e"
+      ],
+      "data": {
+        "core_bg": "#1c1c1c",
+        "core_panel": "#242424",
+        "core_text": "#e0e0e0",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#8a8a8a",
+        "core_muted_hover": "#ff9800",
+        "core_border": "#333333",
+        "core_scroll_color": "#8a8a8a #0000",
+        "typing_correct": "#8bc34a",
+        "typing_incorrect": "#ff5252",
+        "typing_extra": "#ffb74daa",
+        "typing_inactive": "#8a8a8a",
+        "accent_primary": "#ff9800"
+      }
+    },
+    {
+      "name": "Carbon Dark",
+      "colors": [
+        "#f2f2f2",
+        "#00e5ff",
+        "#8c8c8c"
+      ],
+      "data": {
+        "core_bg": "#1a1a1a",
+        "core_panel": "#222222",
+        "core_text": "#f2f2f2",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#9e9e9e",
+        "core_muted_hover": "#00e5ff",
+        "core_border": "#303030",
+        "core_scroll_color": "#9e9e9e #0000",
+        "typing_correct": "#64ffda",
+        "typing_incorrect": "#ff5252",
+        "typing_extra": "#18ffffaa",
+        "typing_inactive": "#9e9e9e",
+        "accent_primary": "#00e5ff"
+      }
+    },
+    {
+      "name": "Void Dark",
+      "colors": [
+        "#eaeaea",
+        "#7f5af0",
+        "#818194"
+      ],
+      "data": {
+        "core_bg": "#16161a",
+        "core_panel": "#1f1f26",
+        "core_text": "#eaeaea",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#8a8aa0",
+        "core_muted_hover": "#7f5af0",
+        "core_border": "#2a2a35",
+        "core_scroll_color": "#8a8aa0 #0000",
+        "typing_correct": "#2cb67d",
+        "typing_incorrect": "#ef4565",
+        "typing_extra": "#a786ffaa",
+        "typing_inactive": "#8a8aa0",
+        "accent_primary": "#7f5af0"
+      }
+    },
+    {
+      "name": "Matrix Dark",
+      "colors": [
+        "#00ff00",
+        "#00cc00",
+        "#727272"
+      ],
+      "data": {
+        "core_bg": "#000000",
+        "core_panel": "#050505",
+        "core_text": "#00ff00",
+        "core_text_hover": "#66ff66",
+        "core_muted": "#009900",
+        "core_muted_hover": "#00cc00",
+        "core_border": "#003300",
+        "core_scroll_color": "#009900 #0000",
+        "typing_correct": "#00ff00",
+        "typing_incorrect": "#ff3333",
+        "typing_extra": "#00ff99aa",
+        "typing_inactive": "#009900",
+        "accent_primary": "#00cc00"
+      }
+    },
+    {
+      "name": "Terminal Dark",
+      "colors": [
+        "#c7c7c7",
+        "#00afff",
+        "#848484"
+      ],
+      "data": {
+        "core_bg": "#121212",
+        "core_panel": "#1a1a1a",
+        "core_text": "#c7c7c7",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#7a7a7a",
+        "core_muted_hover": "#00afff",
+        "core_border": "#2a2a2a",
+        "core_scroll_color": "#7a7a7a #0000",
+        "typing_correct": "#00e676",
+        "typing_incorrect": "#ff5252",
+        "typing_extra": "#40c4ffaa",
+        "typing_inactive": "#7a7a7a",
+        "accent_primary": "#00afff"
+      }
+    },
+    {
+      "name": "Stealth Dark",
+      "colors": [
+        "#e0e0e0",
+        "#ff5555",
+        "#7d7d7d"
+      ],
+      "data": {
+        "core_bg": "#0b0b0b",
+        "core_panel": "#141414",
+        "core_text": "#e0e0e0",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#7a7a7a",
+        "core_muted_hover": "#ff5555",
+        "core_border": "#1f1f1f",
+        "core_scroll_color": "#7a7a7a #0000",
+        "typing_correct": "#50fa7b",
+        "typing_incorrect": "#ff5555",
+        "typing_extra": "#ff8888aa",
+        "typing_inactive": "#7a7a7a",
+        "accent_primary": "#ff5555"
+      }
+    },
+    {
+      "name": "Phantom Dark",
+      "colors": [
+        "#dcdcdc",
+        "#9aedfe",
+        "#848484"
+      ],
+      "data": {
+        "core_bg": "#121212",
+        "core_panel": "#1b1b1b",
+        "core_text": "#dcdcdc",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#8a8a8a",
+        "core_muted_hover": "#9aedfe",
+        "core_border": "#2a2a2a",
+        "core_scroll_color": "#8a8a8a #0000",
+        "typing_correct": "#7fffd4",
+        "typing_incorrect": "#ff6b6b",
+        "typing_extra": "#b2fefa aa",
+        "typing_inactive": "#8a8a8a",
+        "accent_primary": "#9aedfe"
+      }
+    },
+    {
+      "name": "Shadow Dark",
+      "colors": [
+        "#eeeeee",
+        "#ffcc00",
+        "#868686"
+      ],
+      "data": {
+        "core_bg": "#141414",
+        "core_panel": "#1d1d1d",
+        "core_text": "#eeeeee",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#8c8c8c",
+        "core_muted_hover": "#ffcc00",
+        "core_border": "#2b2b2b",
+        "core_scroll_color": "#8c8c8c #0000",
+        "typing_correct": "#a6e22e",
+        "typing_incorrect": "#ff5555",
+        "typing_extra": "#ffd866aa",
+        "typing_inactive": "#8c8c8c",
+        "accent_primary": "#ffcc00"
+      }
+    },
+    {
+      "name": "Nebula Dark",
+      "colors": [
+        "#e6e6fa",
+        "#7df9ff",
+        "#7982c1"
+      ],
+      "data": {
+        "core_bg": "#1b1f3b",
+        "core_panel": "#23275a",
+        "core_text": "#e6e6fa",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#8a8fb3",
+        "core_muted_hover": "#7df9ff",
+        "core_border": "#2f3460",
+        "core_scroll_color": "#8a8fb3 #0000",
+        "typing_correct": "#4dffff",
+        "typing_incorrect": "#ff6b6b",
+        "typing_extra": "#9be7ffaa",
+        "typing_inactive": "#8a8fb3",
+        "accent_primary": "#7df9ff"
+      }
+    },
+    {
+      "name": "Oblivion",
+      "colors": [
+        "#d0d0d0",
+        "#ff6b6b",
+        "#818181"
+      ],
+      "data": {
+        "core_bg": "#0f0f0f",
+        "core_panel": "#181818",
+        "core_text": "#d0d0d0",
+        "core_text_hover": "#ffffff",
+        "core_muted": "#7a7a7a",
+        "core_muted_hover": "#ff6b6b",
+        "core_border": "#242424",
+        "core_scroll_color": "#7a7a7a #0000",
+        "typing_correct": "#51cf66",
+        "typing_incorrect": "#ff6b6b",
+        "typing_extra": "#ffa8a8aa",
+        "typing_inactive": "#7a7a7a",
+        "accent_primary": "#ff6b6b"
+      }
+    }
+  ],
+  "light": [
+    {
+      "name": "RegLink Light",
+      "colors": [
+        "#ff00ff",
+        "#33ff33",
+        "#0011dd"
+      ],
+      "data": {
+        "core_bg": "#a7ceea",
+        "core_panel": "#abc3cd",
+        "core_text": "#fff",
+        "core_text_hover": "#0002",
+        "core_muted": "#333",
+        "core_muted_hover": "#555",
+        "core_border": "#444",
+        "core_overlay": "#1119",
+        "core_scroll_color": "#777, #0000",
+        "typing_correct": "#29e",
+        "typing_incorrect": "#b34d2c",
+        "typing_extra": "#991900aa",
+        "typing_inactive": "#7b83aa",
+        "accent_primary": "#18d"
+      }
+    },
+    {
+      "name": "Default Light",
+      "colors": [
+        "#000000",
+        "#0066cc",
+        "#8c8c8c"
+      ],
+      "data": {
+        "core_bg": "#ffffff",
+        "core_panel": "#f2f2f2",
+        "core_text": "#000000",
+        "core_text_hover": "#000000",
+        "core_muted": "#666666",
+        "core_muted_hover": "#0066cc",
+        "core_border": "#d0d0d0",
+        "core_scroll_color": "#999999 #0000",
+        "typing_correct": "#2e7d32",
+        "typing_incorrect": "#c62828",
+        "typing_extra": "#f9a825aa",
+        "typing_inactive": "#666666",
+        "accent_primary": "#0066cc"
+      }
+    },
+    {
+      "name": "GitHub Light",
+      "colors": [
+        "#24292f",
+        "#0969da",
+        "#8c8c8c"
+      ],
+      "data": {
+        "core_bg": "#ffffff",
+        "core_panel": "#f6f8fa",
+        "core_text": "#24292f",
+        "core_text_hover": "#000000",
+        "core_muted": "#57606a",
+        "core_muted_hover": "#0969da",
+        "core_border": "#d0d7de",
+        "core_scroll_color": "#8c959f #0000",
+        "typing_correct": "#1a7f37",
+        "typing_incorrect": "#cf222e",
+        "typing_extra": "#bf8700aa",
+        "typing_inactive": "#57606a",
+        "accent_primary": "#0969da"
+      }
+    },
+    {
+      "name": "Solarized Light",
+      "colors": [
+        "#586e75",
+        "#b58900",
+        "#e9af10"
+      ],
+      "data": {
+        "core_bg": "#fdf6e3",
+        "core_panel": "#eee8d5",
+        "core_text": "#586e75",
+        "core_text_hover": "#073642",
+        "core_muted": "#93a1a1",
+        "core_muted_hover": "#b58900",
+        "core_border": "#ddd6c1",
+        "core_scroll_color": "#93a1a1 #0000",
+        "typing_correct": "#859900",
+        "typing_incorrect": "#dc322f",
+        "typing_extra": "#cb4b16aa",
+        "typing_inactive": "#93a1a1",
+        "accent_primary": "#b58900"
+      }
+    },
+    {
+      "name": "One Light",
+      "colors": [
+        "#383a42",
+        "#4078f2",
+        "#878787"
+      ],
+      "data": {
+        "core_bg": "#fafafa",
+        "core_panel": "#f0f0f1",
+        "core_text": "#383a42",
+        "core_text_hover": "#000000",
+        "core_muted": "#696c77",
+        "core_muted_hover": "#4078f2",
+        "core_border": "#dcdfe4",
+        "core_scroll_color": "#696c77 #0000",
+        "typing_correct": "#50a14f",
+        "typing_incorrect": "#e45649",
+        "typing_extra": "#c18401aa",
+        "typing_inactive": "#696c77",
+        "accent_primary": "#4078f2"
+      }
+    },
+    {
+      "name": "Nord Light",
+      "colors": [
+        "#2e3440",
+        "#5e81ac",
+        "#5b749e"
+      ],
+      "data": {
+        "core_bg": "#eceff4",
+        "core_panel": "#e5e9f0",
+        "core_text": "#2e3440",
+        "core_text_hover": "#000000",
+        "core_muted": "#6b7280",
+        "core_muted_hover": "#5e81ac",
+        "core_border": "#d8dee9",
+        "core_scroll_color": "#6b7280 #0000",
+        "typing_correct": "#a3be8c",
+        "typing_incorrect": "#bf616a",
+        "typing_extra": "#ebcb8baa",
+        "typing_inactive": "#6b7280",
+        "accent_primary": "#5e81ac"
+      }
+    },
+    {
+      "name": "Ayu Light",
+      "colors": [
+        "#5c6773",
+        "#ffb454",
+        "#878787"
+      ],
+      "data": {
+        "core_bg": "#fafafa",
+        "core_panel": "#f3f3f3",
+        "core_text": "#5c6773",
+        "core_text_hover": "#000000",
+        "core_muted": "#8a9199",
+        "core_muted_hover": "#ffb454",
+        "core_border": "#e1e1e1",
+        "core_scroll_color": "#8a9199 #0000",
+        "typing_correct": "#86b300",
+        "typing_incorrect": "#f07178",
+        "typing_extra": "#ff8f40aa",
+        "typing_inactive": "#8a9199",
+        "accent_primary": "#ffb454"
+      }
+    },
+    {
+      "name": "Monokai Light",
+      "colors": [
+        "#2d2a2e",
+        "#ff6188",
+        "#878787"
+      ],
+      "data": {
+        "core_bg": "#fafafa",
+        "core_panel": "#f0f0f0",
+        "core_text": "#2d2a2e",
+        "core_text_hover": "#000000",
+        "core_muted": "#7a7a7a",
+        "core_muted_hover": "#ff6188",
+        "core_border": "#e0e0e0",
+        "core_scroll_color": "#7a7a7a #0000",
+        "typing_correct": "#7cb342",
+        "typing_incorrect": "#ff6188",
+        "typing_extra": "#fd971faa",
+        "typing_inactive": "#7a7a7a",
+        "accent_primary": "#ff6188"
+      }
+    },
+    {
+      "name": "Material Light",
+      "colors": [
+        "#263238",
+        "#1e88e5",
+        "#8c8c8c"
+      ],
+      "data": {
+        "core_bg": "#ffffff",
+        "core_panel": "#f5f5f5",
+        "core_text": "#263238",
+        "core_text_hover": "#000000",
+        "core_muted": "#607d8b",
+        "core_muted_hover": "#1e88e5",
+        "core_border": "#e0e0e0",
+        "core_scroll_color": "#607d8b #0000",
+        "typing_correct": "#43a047",
+        "typing_incorrect": "#e53935",
+        "typing_extra": "#fb8c00aa",
+        "typing_inactive": "#607d8b",
+        "accent_primary": "#1e88e5"
+      }
+    },
+    {
+      "name": "Atom One Light",
+      "colors": [
+        "#383a42",
+        "#0184bc",
+        "#878787"
+      ],
+      "data": {
+        "core_bg": "#fafafa",
+        "core_panel": "#f0f0f1",
+        "core_text": "#383a42",
+        "core_text_hover": "#000000",
+        "core_muted": "#696c77",
+        "core_muted_hover": "#0184bc",
+        "core_border": "#dcdfe4",
+        "core_scroll_color": "#696c77 #0000",
+        "typing_correct": "#50a14f",
+        "typing_incorrect": "#e45649",
+        "typing_extra": "#c18401aa",
+        "typing_inactive": "#696c77",
+        "accent_primary": "#0184bc"
+      }
+    },
+    {
+      "name": "Visual Studio Light",
+      "colors": [
+        "#000000",
+        "#007acc",
+        "#8c8c8c"
+      ],
+      "data": {
+        "core_bg": "#ffffff",
+        "core_panel": "#f3f3f3",
+        "core_text": "#000000",
+        "core_text_hover": "#000000",
+        "core_muted": "#616161",
+        "core_muted_hover": "#007acc",
+        "core_border": "#e5e5e5",
+        "core_scroll_color": "#9e9e9e #0000",
+        "typing_correct": "#388e3c",
+        "typing_incorrect": "#d32f2f",
+        "typing_extra": "#fbc02daa",
+        "typing_inactive": "#616161",
+        "accent_primary": "#007acc"
+      }
+    },
+    {
+      "name": "Quiet Light",
+      "colors": [
+        "#333333",
+        "#6c71c4",
+        "#828282"
+      ],
+      "data": {
+        "core_bg": "#f5f5f5",
+        "core_panel": "#ededed",
+        "core_text": "#333333",
+        "core_text_hover": "#000000",
+        "core_muted": "#777777",
+        "core_muted_hover": "#6c71c4",
+        "core_border": "#d6d6d6",
+        "core_scroll_color": "#999999 #0000",
+        "typing_correct": "#2e7d32",
+        "typing_incorrect": "#c62828",
+        "typing_extra": "#f9a825aa",
+        "typing_inactive": "#777777",
+        "accent_primary": "#6c71c4"
+      }
+    },
+    {
+      "name": "PaperColor Light",
+      "colors": [
+        "#444444",
+        "#af8700",
+        "#7b7b7b"
+      ],
+      "data": {
+        "core_bg": "#eeeeee",
+        "core_panel": "#e5e5e5",
+        "core_text": "#444444",
+        "core_text_hover": "#000000",
+        "core_muted": "#777777",
+        "core_muted_hover": "#af8700",
+        "core_border": "#d0d0d0",
+        "core_scroll_color": "#8a8a8a #0000",
+        "typing_correct": "#5f8700",
+        "typing_incorrect": "#af0000",
+        "typing_extra": "#d78700aa",
+        "typing_inactive": "#777777",
+        "accent_primary": "#af8700"
+      }
+    },
+    {
+      "name": "Gruvbox Light",
+      "colors": [
+        "#3c3836",
+        "#d79921",
+        "#cda90e"
+      ],
+      "data": {
+        "core_bg": "#fbf1c7",
+        "core_panel": "#f2e5bc",
+        "core_text": "#3c3836",
+        "core_text_hover": "#000000",
+        "core_muted": "#7c6f64",
+        "core_muted_hover": "#d79921",
+        "core_border": "#e0d5a7",
+        "core_scroll_color": "#7c6f64 #0000",
+        "typing_correct": "#98971a",
+        "typing_incorrect": "#cc241d",
+        "typing_extra": "#d65d0eaa",
+        "typing_inactive": "#7c6f64",
+        "accent_primary": "#d79921"
+      }
+    },
+    {
+      "name": "Tokyo Night Light",
+      "colors": [
+        "#343b58",
+        "#34548a",
+        "#5d606d"
+      ],
+      "data": {
+        "core_bg": "#d5d6db",
+        "core_panel": "#cfd1d8",
+        "core_text": "#343b58",
+        "core_text_hover": "#000000",
+        "core_muted": "#6b7089",
+        "core_muted_hover": "#34548a",
+        "core_border": "#bfc2cc",
+        "core_scroll_color": "#6b7089 #0000",
+        "typing_correct": "#41a6b5",
+        "typing_incorrect": "#f7768e",
+        "typing_extra": "#ff9e64aa",
+        "typing_inactive": "#6b7089",
+        "accent_primary": "#34548a"
+      }
+    },
+    {
+      "name": "Palenight Light",
+      "colors": [
+        "#292d3e",
+        "#c792ea",
+        "#8c8c8c"
+      ],
+      "data": {
+        "core_bg": "#ffffff",
+        "core_panel": "#f2f2f7",
+        "core_text": "#292d3e",
+        "core_text_hover": "#000000",
+        "core_muted": "#676e95",
+        "core_muted_hover": "#c792ea",
+        "core_border": "#dcdce6",
+        "core_scroll_color": "#676e95 #0000",
+        "typing_correct": "#91b859",
+        "typing_incorrect": "#f07178",
+        "typing_extra": "#ffcb6baa",
+        "typing_inactive": "#676e95",
+        "accent_primary": "#c792ea"
+      }
+    },
+    {
+      "name": "Everforest Light",
+      "colors": [
+        "#5c6a72",
+        "#a7c080",
+        "#e9af10"
+      ],
+      "data": {
+        "core_bg": "#fdf6e3",
+        "core_panel": "#f4edd8",
+        "core_text": "#5c6a72",
+        "core_text_hover": "#000000",
+        "core_muted": "#8a938d",
+        "core_muted_hover": "#a7c080",
+        "core_border": "#e2dcc7",
+        "core_scroll_color": "#8a938d #0000",
+        "typing_correct": "#87986a",
+        "typing_incorrect": "#e67e80",
+        "typing_extra": "#dbbc7faa",
+        "typing_inactive": "#8a938d",
+        "accent_primary": "#a7c080"
+      }
+    },
+    {
+      "name": "Rose Pine Dawn",
+      "colors": [
+        "#575279",
+        "#ebbcba",
+        "#c88639"
+      ],
+      "data": {
+        "core_bg": "#faf4ed",
+        "core_panel": "#f2e9e1",
+        "core_text": "#575279",
+        "core_text_hover": "#000000",
+        "core_muted": "#8f8aad",
+        "core_muted_hover": "#ebbcba",
+        "core_border": "#e2d8cf",
+        "core_scroll_color": "#8f8aad #0000",
+        "typing_correct": "#56949f",
+        "typing_incorrect": "#b4637a",
+        "typing_extra": "#ea9d34aa",
+        "typing_inactive": "#8f8aad",
+        "accent_primary": "#ebbcba"
+      }
+    },
+    {
+      "name": "Catppuccin Latte",
+      "colors": [
+        "#4c4f69",
+        "#dc8a78",
+        "#61759c"
+      ],
+      "data": {
+        "core_bg": "#eff1f5",
+        "core_panel": "#e6e9ef",
+        "core_text": "#4c4f69",
+        "core_text_hover": "#000000",
+        "core_muted": "#7c7f93",
+        "core_muted_hover": "#dc8a78",
+        "core_border": "#d0d5dd",
+        "core_scroll_color": "#7c7f93 #0000",
+        "typing_correct": "#40a02b",
+        "typing_incorrect": "#d20f39",
+        "typing_extra": "#df8e1daa",
+        "typing_inactive": "#7c7f93",
+        "accent_primary": "#dc8a78"
+      }
+    },
+    {
+      "name": "Horizon Light",
+      "colors": [
+        "#403c3d",
+        "#f7931e",
+        "#e6431e"
+      ],
+      "data": {
+        "core_bg": "#fdf0ed",
+        "core_panel": "#f4e6e3",
+        "core_text": "#403c3d",
+        "core_text_hover": "#000000",
+        "core_muted": "#8c7c7a",
+        "core_muted_hover": "#f7931e",
+        "core_border": "#e3d2ce",
+        "core_scroll_color": "#8c7c7a #0000",
+        "typing_correct": "#27d796",
+        "typing_incorrect": "#f43e5c",
+        "typing_extra": "#fab795aa",
+        "typing_inactive": "#8c7c7a",
+        "accent_primary": "#f7931e"
+      }
+    },
+    {
+      "name": "Night Owl Light",
+      "colors": [
+        "#403f53",
+        "#5ca7e4",
+        "#888888"
+      ],
+      "data": {
+        "core_bg": "#fbfbfb",
+        "core_panel": "#f0f1f5",
+        "core_text": "#403f53",
+        "core_text_hover": "#000000",
+        "core_muted": "#6c6f93",
+        "core_muted_hover": "#5ca7e4",
+        "core_border": "#dadbe3",
+        "core_scroll_color": "#6c6f93 #0000",
+        "typing_correct": "#22da6e",
+        "typing_incorrect": "#ef5350",
+        "typing_extra": "#ecc48daa",
+        "typing_inactive": "#6c6f93",
+        "accent_primary": "#5ca7e4"
+      }
+    },
+    {
+      "name": "Cobalt Light",
+      "colors": [
+        "#002240",
+        "#005cc5",
+        "#0a8cff"
+      ],
+      "data": {
+        "core_bg": "#f0f8ff",
+        "core_panel": "#e6f0fa",
+        "core_text": "#002240",
+        "core_text_hover": "#000000",
+        "core_muted": "#5c6f82",
+        "core_muted_hover": "#005cc5",
+        "core_border": "#c9d8e8",
+        "core_scroll_color": "#5c6f82 #0000",
+        "typing_correct": "#22863a",
+        "typing_incorrect": "#d73a49",
+        "typing_extra": "#f9c513aa",
+        "typing_inactive": "#5c6f82",
+        "accent_primary": "#005cc5"
+      }
+    },
+    {
+      "name": "SynthWave Light",
+      "colors": [
+        "#2b213a",
+        "#ff7edb",
+        "#8a8a8a"
+      ],
+      "data": {
+        "core_bg": "#fdfdfd",
+        "core_panel": "#f3f3f7",
+        "core_text": "#2b213a",
+        "core_text_hover": "#000000",
+        "core_muted": "#7a6f8a",
+        "core_muted_hover": "#ff7edb",
+        "core_border": "#dedee8",
+        "core_scroll_color": "#7a6f8a #0000",
+        "typing_correct": "#00c853",
+        "typing_incorrect": "#ff1744",
+        "typing_extra": "#ffb86caa",
+        "typing_inactive": "#7a6f8a",
+        "accent_primary": "#ff7edb"
+      }
+    },
+    {
+      "name": "Iceberg Light",
+      "colors": [
+        "#33374c",
+        "#5a7edc",
+        "#5c7697"
+      ],
+      "data": {
+        "core_bg": "#e8ecf1",
+        "core_panel": "#dde2ea",
+        "core_text": "#33374c",
+        "core_text_hover": "#000000",
+        "core_muted": "#6b7089",
+        "core_muted_hover": "#5a7edc",
+        "core_border": "#c9cfdb",
+        "core_scroll_color": "#6b7089 #0000",
+        "typing_correct": "#4caf50",
+        "typing_incorrect": "#e53935",
+        "typing_extra": "#ffb300aa",
+        "typing_inactive": "#6b7089",
+        "accent_primary": "#5a7edc"
+      }
+    },
+    {
+      "name": "Kanagawa Light",
+      "colors": [
+        "#54546d",
+        "#7e9cd8",
+        "#a79820"
+      ],
+      "data": {
+        "core_bg": "#f2ecbc",
+        "core_panel": "#e8e1b2",
+        "core_text": "#54546d",
+        "core_text_hover": "#000000",
+        "core_muted": "#8b8b9c",
+        "core_muted_hover": "#7e9cd8",
+        "core_border": "#d6d0a8",
+        "core_scroll_color": "#8b8b9c #0000",
+        "typing_correct": "#76946a",
+        "typing_incorrect": "#c34043",
+        "typing_extra": "#dca561aa",
+        "typing_inactive": "#8b8b9c",
+        "accent_primary": "#7e9cd8"
+      }
+    },
+    {
+      "name": "Moonlight Light",
+      "colors": [
+        "#2f334d",
+        "#5ca7e4",
+        "#4b6cbd"
+      ],
+      "data": {
+        "core_bg": "#f4f6fb",
+        "core_panel": "#eaedf5",
+        "core_text": "#2f334d",
+        "core_text_hover": "#000000",
+        "core_muted": "#6c6f93",
+        "core_muted_hover": "#5ca7e4",
+        "core_border": "#d5d9e6",
+        "core_scroll_color": "#6c6f93 #0000",
+        "typing_correct": "#22da6e",
+        "typing_incorrect": "#ef5350",
+        "typing_extra": "#ffb86caa",
+        "typing_inactive": "#6c6f93",
+        "accent_primary": "#5ca7e4"
+      }
+    },
+    {
+      "name": "Serene Light",
+      "colors": [
+        "#2e3440",
+        "#81a1c1",
+        "#657ba7"
+      ],
+      "data": {
+        "core_bg": "#f8f9fb",
+        "core_panel": "#eef0f4",
+        "core_text": "#2e3440",
+        "core_text_hover": "#000000",
+        "core_muted": "#6b7280",
+        "core_muted_hover": "#81a1c1",
+        "core_border": "#d7dbe3",
+        "core_scroll_color": "#6b7280 #0000",
+        "typing_correct": "#4caf50",
+        "typing_incorrect": "#f44336",
+        "typing_extra": "#ffca28aa",
+        "typing_inactive": "#6b7280",
+        "accent_primary": "#81a1c1"
+      }
+    },
+    {
+      "name": "Minimal Light",
+      "colors": [
+        "#222222",
+        "#999999",
+        "#8c8c8c"
+      ],
+      "data": {
+        "core_bg": "#ffffff",
+        "core_panel": "#f2f2f2",
+        "core_text": "#222222",
+        "core_text_hover": "#000000",
+        "core_muted": "#888888",
+        "core_muted_hover": "#999999",
+        "core_border": "#e0e0e0",
+        "core_scroll_color": "#888888 #0000",
+        "typing_correct": "#4caf50",
+        "typing_incorrect": "#e53935",
+        "typing_extra": "#ffb300aa",
+        "typing_inactive": "#888888",
+        "accent_primary": "#999999"
+      }
+    },
+    {
+      "name": "Soft Light",
+      "colors": [
+        "#444444",
+        "#ff9f43",
+        "#848484"
+      ],
+      "data": {
+        "core_bg": "#f7f7f7",
+        "core_panel": "#ededed",
+        "core_text": "#444444",
+        "core_text_hover": "#000000",
+        "core_muted": "#888888",
+        "core_muted_hover": "#ff9f43",
+        "core_border": "#dcdcdc",
+        "core_scroll_color": "#888888 #0000",
+        "typing_correct": "#2ecc71",
+        "typing_incorrect": "#e74c3c",
+        "typing_extra": "#f6b93baa",
+        "typing_inactive": "#888888",
+        "accent_primary": "#ff9f43"
+      }
+    },
+    {
+      "name": "Cloud Light",
+      "colors": [
+        "#3a3a3a",
+        "#6ca0dc",
+        "#3774d0"
+      ],
+      "data": {
+        "core_bg": "#f2f6fc",
+        "core_panel": "#e8eef7",
+        "core_text": "#3a3a3a",
+        "core_text_hover": "#000000",
+        "core_muted": "#7a7a7a",
+        "core_muted_hover": "#6ca0dc",
+        "core_border": "#d4deeb",
+        "core_scroll_color": "#7a7a7a #0000",
+        "typing_correct": "#4caf50",
+        "typing_incorrect": "#f44336",
+        "typing_extra": "#ffb74daa",
+        "typing_inactive": "#7a7a7a",
+        "accent_primary": "#6ca0dc"
+      }
+    },
+    {
+      "name": "Pearl Light",
+      "colors": [
+        "#2b2b2b",
+        "#d16d9e",
+        "#8a8a8a"
+      ],
+      "data": {
+        "core_bg": "#fdfdfd",
+        "core_panel": "#f2f2f4",
+        "core_text": "#2b2b2b",
+        "core_text_hover": "#000000",
+        "core_muted": "#7d7d7d",
+        "core_muted_hover": "#d16d9e",
+        "core_border": "#e1e1e6",
+        "core_scroll_color": "#7d7d7d #0000",
+        "typing_correct": "#3cb371",
+        "typing_incorrect": "#e53935",
+        "typing_extra": "#f48fb1aa",
+        "typing_inactive": "#7d7d7d",
+        "accent_primary": "#d16d9e"
+      }
+    },
+    {
+      "name": "Snowstorm Light",
+      "colors": [
+        "#2e3440",
+        "#88c0d0",
+        "#8c8c8c"
+      ],
+      "data": {
+        "core_bg": "#ffffff",
+        "core_panel": "#f2f4f8",
+        "core_text": "#2e3440",
+        "core_text_hover": "#000000",
+        "core_muted": "#6b7280",
+        "core_muted_hover": "#88c0d0",
+        "core_border": "#d8dee9",
+        "core_scroll_color": "#6b7280 #0000",
+        "typing_correct": "#4caf50",
+        "typing_incorrect": "#f44336",
+        "typing_extra": "#ffca28aa",
+        "typing_inactive": "#6b7280",
+        "accent_primary": "#88c0d0"
+      }
+    },
+    {
+      "name": "Classic Light",
+      "colors": [
+        "#000000",
+        "#ff0000",
+        "#8c8c8c"
+      ],
+      "data": {
+        "core_bg": "#ffffff",
+        "core_panel": "#f0f0f0",
+        "core_text": "#000000",
+        "core_text_hover": "#000000",
+        "core_muted": "#666666",
+        "core_muted_hover": "#ff0000",
+        "core_border": "#d0d0d0",
+        "core_scroll_color": "#666666 #0000",
+        "typing_correct": "#2e7d32",
+        "typing_incorrect": "#ff0000",
+        "typing_extra": "#ff9800aa",
+        "typing_inactive": "#666666",
+        "accent_primary": "#ff0000"
+      }
+    },
+    {
+      "name": "Elegant Light",
+      "colors": [
+        "#3b3b3b",
+        "#b58900",
+        "#8b8b8b"
+      ],
+      "data": {
+        "core_bg": "#fefefe",
+        "core_panel": "#f3f3f3",
+        "core_text": "#3b3b3b",
+        "core_text_hover": "#000000",
+        "core_muted": "#7a7a7a",
+        "core_muted_hover": "#b58900",
+        "core_border": "#dddddd",
+        "core_scroll_color": "#7a7a7a #0000",
+        "typing_correct": "#6c9a1f",
+        "typing_incorrect": "#c62828",
+        "typing_extra": "#e0a800aa",
+        "typing_inactive": "#7a7a7a",
+        "accent_primary": "#b58900"
+      }
+    },
+    {
+      "name": "Soft Pastel Light",
+      "colors": [
+        "#555555",
+        "#c792ea",
+        "#878787"
+      ],
+      "data": {
+        "core_bg": "#fafafa",
+        "core_panel": "#f0f0f4",
+        "core_text": "#555555",
+        "core_text_hover": "#000000",
+        "core_muted": "#8a8a8a",
+        "core_muted_hover": "#c792ea",
+        "core_border": "#e0e0ea",
+        "core_scroll_color": "#8a8a8a #0000",
+        "typing_correct": "#81c784",
+        "typing_incorrect": "#e57373",
+        "typing_extra": "#ffcc80aa",
+        "typing_inactive": "#8a8a8a",
+        "accent_primary": "#c792ea"
+      }
+    },
+    {
+      "name": "Warm Light",
+      "colors": [
+        "#5a4634",
+        "#ffb703",
+        "#ffb501"
+      ],
+      "data": {
+        "core_bg": "#fff8e7",
+        "core_panel": "#f5edd8",
+        "core_text": "#5a4634",
+        "core_text_hover": "#000000",
+        "core_muted": "#9c8468",
+        "core_muted_hover": "#ffb703",
+        "core_border": "#e6dcc6",
+        "core_scroll_color": "#9c8468 #0000",
+        "typing_correct": "#7cb342",
+        "typing_incorrect": "#d84315",
+        "typing_extra": "#ffca28aa",
+        "typing_inactive": "#9c8468",
+        "accent_primary": "#ffb703"
+      }
+    },
+    {
+      "name": "Paper Light",
+      "colors": [
+        "#2d2d2d",
+        "#3f51b5",
+        "#898989"
+      ],
+      "data": {
+        "core_bg": "#fcfcfc",
+        "core_panel": "#f1f1f6",
+        "core_text": "#2d2d2d",
+        "core_text_hover": "#000000",
+        "core_muted": "#7a7a7a",
+        "core_muted_hover": "#3f51b5",
+        "core_border": "#e0e0e6",
+        "core_scroll_color": "#7a7a7a #0000",
+        "typing_correct": "#43a047",
+        "typing_incorrect": "#e53935",
+        "typing_extra": "#ffb300aa",
+        "typing_inactive": "#7a7a7a",
+        "accent_primary": "#3f51b5"
+      }
+    },
+    {
+      "name": "Gentle Light",
+      "colors": [
+        "#4a4a4a",
+        "#26a69a",
+        "#868686"
+      ],
+      "data": {
+        "core_bg": "#f9f9f9",
+        "core_panel": "#eef2f2",
+        "core_text": "#4a4a4a",
+        "core_text_hover": "#000000",
+        "core_muted": "#8a8a8a",
+        "core_muted_hover": "#26a69a",
+        "core_border": "#dde5e5",
+        "core_scroll_color": "#8a8a8a #0000",
+        "typing_correct": "#66bb6a",
+        "typing_incorrect": "#ef5350",
+        "typing_extra": "#ffcc80aa",
+        "typing_inactive": "#8a8a8a",
+        "accent_primary": "#26a69a"
+      }
+    },
+    {
+      "name": "Zen Light",
+      "colors": [
+        "#3a3a3a",
+        "#9ccc65",
+        "#8a8a8a"
+      ],
+      "data": {
+        "core_bg": "#fdfdfd",
+        "core_panel": "#f1f5ef",
+        "core_text": "#3a3a3a",
+        "core_text_hover": "#000000",
+        "core_muted": "#7d7d7d",
+        "core_muted_hover": "#9ccc65",
+        "core_border": "#dde5d8",
+        "core_scroll_color": "#7d7d7d #0000",
+        "typing_correct": "#7cb342",
+        "typing_incorrect": "#e53935",
+        "typing_extra": "#cddc39aa",
+        "typing_inactive": "#7d7d7d",
+        "accent_primary": "#9ccc65"
+      }
+    },
+    {
+      "name": "Linen Light",
+      "colors": [
+        "#3e3e3e",
+        "#c97c5d",
+        "#ba914c"
+      ],
+      "data": {
+        "core_bg": "#faf7f2",
+        "core_panel": "#f0ebe3",
+        "core_text": "#3e3e3e",
+        "core_text_hover": "#000000",
+        "core_muted": "#8c8c8c",
+        "core_muted_hover": "#c97c5d",
+        "core_border": "#e2dbd2",
+        "core_scroll_color": "#8c8c8c #0000",
+        "typing_correct": "#8bc34a",
+        "typing_incorrect": "#d32f2f",
+        "typing_extra": "#ffab91aa",
+        "typing_inactive": "#8c8c8c",
+        "accent_primary": "#c97c5d"
+      }
+    },
+    {
+      "name": "Ivory Light",
+      "colors": [
+        "#2f2f2f",
+        "#a78bfa",
+        "#feff0a"
+      ],
+      "data": {
+        "core_bg": "#fffff0",
+        "core_panel": "#f4f4e6",
+        "core_text": "#2f2f2f",
+        "core_text_hover": "#000000",
+        "core_muted": "#7f7f7f",
+        "core_muted_hover": "#a78bfa",
+        "core_border": "#e2e2d2",
+        "core_scroll_color": "#7f7f7f #0000",
+        "typing_correct": "#4caf50",
+        "typing_incorrect": "#e53935",
+        "typing_extra": "#d1c4e9aa",
+        "typing_inactive": "#7f7f7f",
+        "accent_primary": "#a78bfa"
+      }
+    },
+    {
+      "name": "Dracula Light",
+      "colors": [
+        "#2b2b2b",
+        "#bd93f9",
+        "#a7a75c"
+      ],
+      "data": {
+        "core_bg": "#f8f8f2",
+        "core_panel": "#efefe9",
+        "core_text": "#2b2b2b",
+        "core_text_hover": "#000000",
+        "core_muted": "#7a7a7a",
+        "core_muted_hover": "#bd93f9",
+        "core_border": "#dcdcdc",
+        "core_scroll_color": "#7a7a7a #0000",
+        "typing_correct": "#50fa7b",
+        "typing_incorrect": "#ff5555",
+        "typing_extra": "#f1fa8caa",
+        "typing_inactive": "#7a7a7a",
+        "accent_primary": "#bd93f9"
+      }
+    },
+    {
+      "name": "Nord Polar Light",
+      "colors": [
+        "#2e3440",
+        "#81a1c1",
+        "#5b749e"
+      ],
+      "data": {
+        "core_bg": "#eceff4",
+        "core_panel": "#e5e9f0",
+        "core_text": "#2e3440",
+        "core_text_hover": "#000000",
+        "core_muted": "#6b7280",
+        "core_muted_hover": "#81a1c1",
+        "core_border": "#d8dee9",
+        "core_scroll_color": "#6b7280 #0000",
+        "typing_correct": "#a3be8c",
+        "typing_incorrect": "#bf616a",
+        "typing_extra": "#ebcb8baa",
+        "typing_inactive": "#6b7280",
+        "accent_primary": "#81a1c1"
+      }
+    },
+    {
+      "name": "Alabaster",
+      "colors": [
+        "#000000",
+        "#007acc",
+        "#848484"
+      ],
+      "data": {
+        "core_bg": "#f7f7f7",
+        "core_panel": "#ededed",
+        "core_text": "#000000",
+        "core_text_hover": "#000000",
+        "core_muted": "#666666",
+        "core_muted_hover": "#007acc",
+        "core_border": "#dcdcdc",
+        "core_scroll_color": "#666666 #0000",
+        "typing_correct": "#2e7d32",
+        "typing_incorrect": "#c62828",
+        "typing_extra": "#f9a825aa",
+        "typing_inactive": "#666666",
+        "accent_primary": "#007acc"
+      }
+    },
+    {
+      "name": "Pure White",
+      "colors": [
+        "#000000",
+        "#444444",
+        "#8c8c8c"
+      ],
+      "data": {
+        "core_bg": "#ffffff",
+        "core_panel": "#f5f5f5",
+        "core_text": "#000000",
+        "core_text_hover": "#000000",
+        "core_muted": "#777777",
+        "core_muted_hover": "#444444",
+        "core_border": "#e0e0e0",
+        "core_scroll_color": "#777777 #0000",
+        "typing_correct": "#4caf50",
+        "typing_incorrect": "#f44336",
+        "typing_extra": "#ffb300aa",
+        "typing_inactive": "#777777",
+        "accent_primary": "#444444"
+      }
+    },
+    {
+      "name": "Google Light",
+      "colors": [
+        "#202124",
+        "#1a73e8",
+        "#8c8c8c"
+      ],
+      "data": {
+        "core_bg": "#ffffff",
+        "core_panel": "#f1f3f4",
+        "core_text": "#202124",
+        "core_text_hover": "#000000",
+        "core_muted": "#5f6368",
+        "core_muted_hover": "#1a73e8",
+        "core_border": "#dadce0",
+        "core_scroll_color": "#5f6368 #0000",
+        "typing_correct": "#34a853",
+        "typing_incorrect": "#ea4335",
+        "typing_extra": "#fbbc04aa",
+        "typing_inactive": "#5f6368",
+        "accent_primary": "#1a73e8"
+      }
+    },
+    {
+      "name": "Apple Light",
+      "colors": [
+        "#1d1d1f",
+        "#0071e3",
+        "#757590"
+      ],
+      "data": {
+        "core_bg": "#f5f5f7",
+        "core_panel": "#ececf0",
+        "core_text": "#1d1d1f",
+        "core_text_hover": "#000000",
+        "core_muted": "#6e6e73",
+        "core_muted_hover": "#0071e3",
+        "core_border": "#d2d2d7",
+        "core_scroll_color": "#6e6e73 #0000",
+        "typing_correct": "#34c759",
+        "typing_incorrect": "#ff3b30",
+        "typing_extra": "#ffd60aaa",
+        "typing_inactive": "#6e6e73",
+        "accent_primary": "#0071e3"
+      }
+    },
+    {
+      "name": "Microsoft Light",
+      "colors": [
+        "#323130",
+        "#0078d4",
+        "#8c8c8c"
+      ],
+      "data": {
+        "core_bg": "#ffffff",
+        "core_panel": "#f3f2f1",
+        "core_text": "#323130",
+        "core_text_hover": "#000000",
+        "core_muted": "#605e5c",
+        "core_muted_hover": "#0078d4",
+        "core_border": "#edebe9",
+        "core_scroll_color": "#605e5c #0000",
+        "typing_correct": "#107c10",
+        "typing_incorrect": "#d13438",
+        "typing_extra": "#ffb900aa",
+        "typing_inactive": "#605e5c",
+        "accent_primary": "#0078d4"
+      }
+    },
+    {
+      "name": "Ubuntu Light",
+      "colors": [
+        "#3d3d3d",
+        "#e95420",
+        "#8c8c8c"
+      ],
+      "data": {
+        "core_bg": "#ffffff",
+        "core_panel": "#f5f3f2",
+        "core_text": "#3d3d3d",
+        "core_text_hover": "#000000",
+        "core_muted": "#7c7c7c",
+        "core_muted_hover": "#e95420",
+        "core_border": "#e5e5e5",
+        "core_scroll_color": "#7c7c7c #0000",
+        "typing_correct": "#2c9b2c",
+        "typing_incorrect": "#c7162b",
+        "typing_extra": "#f99b11aa",
+        "typing_inactive": "#7c7c7c",
+        "accent_primary": "#e95420"
+      }
+    },
+    {
+      "name": "Slack Light",
+      "colors": [
+        "#1d1c1d",
+        "#611f69",
+        "#8c8c8c"
+      ],
+      "data": {
+        "core_bg": "#ffffff",
+        "core_panel": "#f8f8f8",
+        "core_text": "#1d1c1d",
+        "core_text_hover": "#000000",
+        "core_muted": "#6f6f6f",
+        "core_muted_hover": "#611f69",
+        "core_border": "#e0e0e0",
+        "core_scroll_color": "#6f6f6f #0000",
+        "typing_correct": "#2eb67d",
+        "typing_incorrect": "#e01e5a",
+        "typing_extra": "#ecb22eaa",
+        "typing_inactive": "#6f6f6f",
+        "accent_primary": "#611f69"
+      }
+    },
+    {
+      "name": "Notion Light",
+      "colors": [
+        "#2f3437",
+        "#37352f",
+        "#8c8c8c"
+      ],
+      "data": {
+        "core_bg": "#ffffff",
+        "core_panel": "#f7f6f3",
+        "core_text": "#2f3437",
+        "core_text_hover": "#000000",
+        "core_muted": "#7a7a7a",
+        "core_muted_hover": "#37352f",
+        "core_border": "#e3e2de",
+        "core_scroll_color": "#7a7a7a #0000",
+        "typing_correct": "#4caf50",
+        "typing_incorrect": "#e53935",
+        "typing_extra": "#ffb300aa",
+        "typing_inactive": "#7a7a7a",
+        "accent_primary": "#37352f"
+      }
+    }
+  ]
+}
