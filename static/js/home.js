@@ -1515,7 +1515,7 @@ function handleOneLetter(event, key, excepted) {
         if(key === lowLetter) {
             letterStats[lang][lowLetter].correct ++;
         } else {
-            letterStats[lang][currentChar].incorrect ++;
+            letterStats[lang][lowLetter].incorrect ++;
         };
 
         letterStats[lang][lowLetter].history.push(key === lowLetter ? 1 : 0)
