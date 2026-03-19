@@ -73,7 +73,7 @@ let settings_state = {
             type: "css-var-slider",
             cssVar: "--font-size-typing",
             unit: 'x',
-            value: 1.2,
+            value: 1,
         },
         letterSpacingTyping: {
             type: "css-var-slider",
