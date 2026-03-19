@@ -1,16 +1,16 @@
 // home.js
 
-window.onerror = function(message, source, lineno, colno, error) {
-    //console.log('llfe: window.onerror');
+// window.onerror = function(message, source, lineno, colno, error) {
+//     console.log('llfe: window.onerror');
 
-    let fileName = source.split('/').pop();
-    showMessage('error',  `
-        ${message}<br>
-        &bull; file name: ${fileName}<br>
-        &bull; line: ${lineno}
-    `, 30000, true)
+//     let fileName = source.split('/').pop();
+//     showMessage('error',  `
+//         ${message}<br>
+//         &bull; file name: ${fileName}<br>
+//         &bull; line: ${lineno}
+//     `, 30000, true)
 
-};
+// };
 
 let body = document.querySelector('body');
 const header = document.querySelector('header');
@@ -1497,12 +1497,13 @@ function handleOneLetter(event, key, excepted) {
     const weak = getWeakLetters(lang);
 
     if(!specialIncludes.includes(currentChar)) {
+        let lowLetter = currentChar.toLowerCase();
         if(!letterStats[lang]) {
             letterStats[lang] = {};
         };      
 
-        if(!letterStats[lang][currentChar.toLowerCase()]) {
-            letterStats[lang][currentChar.toLowerCase()] = {
+        if(!letterStats[lang][lowLetter]) {
+            letterStats[lang][lowLetter] = {
                 correct: 0,
                 incorrect: 0,
                 history: [],
@@ -1511,15 +1512,15 @@ function handleOneLetter(event, key, excepted) {
 
         const limitHistory = 20;
 
-        if(key === currentChar) {
-            letterStats[lang][currentChar].correct ++;
+        if(key === lowLetter) {
+            letterStats[lang][lowLetter].correct ++;
         } else {
             letterStats[lang][currentChar].incorrect ++;
         };
 
-        letterStats[lang][currentChar].history.push(key === currentChar ? 1 : 0)
-        if(letterStats[lang][currentChar].history.length > limitHistory) {
-            letterStats[lang][currentChar].history.shift();
+        letterStats[lang][lowLetter].history.push(key === lowLetter ? 1 : 0)
+        if(letterStats[lang][lowLetter].history.length > limitHistory) {
+            letterStats[lang][lowLetter].history.shift();
         }
     };
 

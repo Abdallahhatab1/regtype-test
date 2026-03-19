@@ -1137,14 +1137,14 @@ header .test_settings .settings_container .show {
 
     background-color: var(--core-panel);    
 
-    top: 10;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, -50%);
 
     width: 80%;
     max-width: 1000px;
-    height: 450px;
-    max-height: calc(90% - 130px);
+    height: 500px;
+    max-height: calc(80%);
  
     border: 2px solid var(--core-border);
     border-radius: 5px;
