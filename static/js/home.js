@@ -217,7 +217,10 @@ function resizeContainerToWords() {
     let typingHeightOffset = +typing_line_height.split('px')[0] * 3;
     // واحد بالمية من الطول الاصلي
 
-    let text_container_padding = 0;
+    let lastHeightOffset = settings_state.display.lineHeightTyping.value;
+
+    let text_container_padding = -lastHeightOffset;
+
 
     let text_area_height = (words_height + typingHeightOffset + text_container_padding) + 'px';
     document.documentElement.style.setProperty('--text_area_height', text_area_height);
@@ -1317,6 +1320,7 @@ function moveCaret(element, after) {
 
 
     let dir = language_info.dir;
+    console.log(dir)
 
     const offset_x = state.caretPaddingX;
     const offset_y = state.caretPaddingy;
@@ -1331,7 +1335,7 @@ function moveCaret(element, after) {
         timer_dom.style.textAlign = 'start'
 
     } else {
-        if(settings_state.caret.caretShape == 'line')
+        if(settings_state.caret.caretShape.value == 'line')
             if(after) {
                 caret.style.transform = `translate(${(x) - offset_x}px, ${y}px)`;
             } else {

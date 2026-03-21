@@ -27,25 +27,24 @@ body,html {
     ;
 
     grid-template-columns: minmax(var(--sidebar-width), auto) repeat(8, 1fr);
-    grid-template-rows: var(--navbar-height) 5px var(--header-height) fit-content(100%) 0px var(--footer-height);
+    grid-template-rows: var(--navbar-height) 5px var(--header-height) fit-content(100%) 0px auto;
 
     transition: margin ease 0.35s;
     margin-left: 0px;
 }
 
-#focus-tra {
+/* #focus-trap {
     position: absolute;
     z-index: 100;
     bottom: 50%;
 
-    /* position: fixed; */
+    position: fixed; */
     /* user-select: none; */
-    background: red;
 
-    /* visibility: hidden; */
+    /* visibility: hidden;
     width: 50px;
     height: 30px;
-}
+} */
 
 
 
@@ -355,6 +354,7 @@ body,html {
 .navbar_container {
     position: relative;
     grid-area: navbar_container;
+    height: var(--navbar-height);
 
 }.navbar {
     background: var(--sidenav-image);
@@ -431,6 +431,7 @@ header {
     transition:
         transform 0.35s ease
     ;
+    height: var(--header-height);
 }
 
 header .typing-state {
